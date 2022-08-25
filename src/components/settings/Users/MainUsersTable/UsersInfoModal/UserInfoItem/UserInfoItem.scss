@@ -1,0 +1,17 @@
+.user-info-item {
+  margin-top: 24px;
+  min-height: 34px;
+
+  display: flex;
+  align-items: center;
+
+  p {
+    color: #c20910;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__text {
+    min-width: 120px;
+  }
+}

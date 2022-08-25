@@ -1,0 +1,687 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewUserModal test renders correctly 1`] = `
+<div
+  className="add-new-user"
+>
+  <div
+    className="add-new-user__title"
+  >
+    <h5>
+      New User
+    </h5>
+  </div>
+  <div
+    className="add-new-user-wrapper"
+  >
+    <div
+      className="add-new-user__item"
+      data-testid="add-new-user__item"
+    >
+      <label
+        id="new-user-username"
+      >
+        User Name:
+      </label>
+      <div
+        className="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id="new-user-username"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter user name"
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-hdw1oc"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="add-new-user__item"
+      data-testid="add-new-user__item"
+    >
+      <label
+        id="email-login"
+      >
+        Email (login):
+      </label>
+      <div
+        className="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id="email-login"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter user login"
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-hdw1oc"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="add-new-user__item"
+      data-testid="add-new-user__item"
+    >
+      <label
+        id="new-user-password"
+      >
+        Password:
+      </label>
+      <div
+        className="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id="new-user-password"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter user password"
+            required={false}
+            type="password"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-hdw1oc"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <svg
+        aria-hidden={true}
+        aria-label="Length of password must be between 8 and 40."
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium info-icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="info-icon-test"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <div
+      className="add-new-user__item"
+      data-testid="add-new-user__item"
+    >
+      <label
+        id="role-label"
+      >
+        Role:
+      </label>
+      <div
+        className="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+      >
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl add-new-user-select placeholder css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          data-testid="role-select"
+          onClick={[Function]}
+        >
+          <select
+            aria-invalid={false}
+            className="MuiNativeSelect-select MuiNativeSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id="role-select"
+            multiple={false}
+            name="role-select"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            value=""
+          >
+            <option
+              data-testid="role-select-ADMIN"
+              hidden={false}
+              value="ADMIN"
+            >
+              Admin
+            </option>
+            <option
+              data-testid="role-select-TEAM_LEADER"
+              hidden={false}
+              value="TEAM_LEADER"
+            >
+              Team Leader
+            </option>
+            <option
+              data-testid="role-select-AUDITOR"
+              hidden={false}
+              value="AUDITOR"
+            >
+              Auditor
+            </option>
+            <option
+              data-testid="role-select-MANAGER"
+              hidden={false}
+              value="MANAGER"
+            >
+              Manager
+            </option>
+            <option
+              data-testid="role-select-"
+              hidden={true}
+              value=""
+            >
+              Select user's role
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-hdw1oc"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        className="preset-working-hours-checkbox"
+      >
+        <span
+          className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <input
+            className="PrivateSwitchBase-input css-1m9pwf3"
+            data-indeterminate={false}
+            id="preset-working-hours-label"
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckBoxOutlineBlankIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </span>
+        <label
+          id="preset-working-hours-label"
+        >
+          Preset working hours schedule
+        </label>
+        <svg
+          aria-hidden={true}
+          aria-label="Set when the auditor/team lead uses the third-party time-management system instead of a corporate Jira project"
+          aria-labelledby={null}
+          className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium info-icon css-ci5apu-MuiSvgIcon-root"
+          data-mui-internal-clone-element={true}
+          data-testid="info-icon-test"
+          focusable="false"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AddNewUserModalContainer test renders correctly 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body "
+  >
+    <div
+      class="add-new-user"
+    >
+      <div
+        class="add-new-user__title"
+      >
+        <h5>
+          New User
+        </h5>
+      </div>
+      <div
+        class="add-new-user-wrapper"
+      >
+        <div
+          class="add-new-user__item"
+          data-testid="add-new-user__item"
+        >
+          <label
+            id="new-user-username"
+          >
+            User Name:
+          </label>
+          <div
+            class="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                id="new-user-username"
+                placeholder="Enter user name"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="add-new-user__item"
+          data-testid="add-new-user__item"
+        >
+          <label
+            id="email-login"
+          >
+            Email (login):
+          </label>
+          <div
+            class="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                id="email-login"
+                placeholder="Enter user login"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="add-new-user__item"
+          data-testid="add-new-user__item"
+        >
+          <label
+            id="new-user-password"
+          >
+            Password:
+          </label>
+          <div
+            class="MuiFormControl-root MuiTextField-root add-new-user-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                id="new-user-password"
+                placeholder="Enter user password"
+                type="password"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <svg
+            aria-hidden="true"
+            aria-label="Length of password must be between 8 and 40."
+            class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium info-icon css-ci5apu-MuiSvgIcon-root"
+            data-mui-internal-clone-element="true"
+            data-testid="info-icon-test"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="add-new-user__item"
+          data-testid="add-new-user__item"
+        >
+          <label
+            id="role-label"
+          >
+            Role:
+          </label>
+          <div
+            class="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl add-new-user-select placeholder css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+              data-testid="role-select"
+            >
+              <select
+                aria-invalid="false"
+                class="MuiNativeSelect-select MuiNativeSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                id="role-select"
+                name="role-select"
+              >
+                <option
+                  data-testid="role-select-ADMIN"
+                  value="ADMIN"
+                >
+                  Admin
+                </option>
+                <option
+                  data-testid="role-select-TEAM_LEADER"
+                  value="TEAM_LEADER"
+                >
+                  Team Leader
+                </option>
+                <option
+                  data-testid="role-select-AUDITOR"
+                  value="AUDITOR"
+                >
+                  Auditor
+                </option>
+                <option
+                  data-testid="role-select-MANAGER"
+                  value="MANAGER"
+                >
+                  Manager
+                </option>
+                <option
+                  data-testid="role-select-"
+                  hidden=""
+                  value=""
+                >
+                  Select user's role
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="preset-working-hours-checkbox"
+          >
+            <span
+              class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+            >
+              <input
+                class="PrivateSwitchBase-input css-1m9pwf3"
+                data-indeterminate="false"
+                id="preset-working-hours-label"
+                type="checkbox"
+                value="false"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="CheckBoxOutlineBlankIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </span>
+            <label
+              id="preset-working-hours-label"
+            >
+              Preset working hours schedule
+            </label>
+            <svg
+              aria-hidden="true"
+              aria-label="Set when the auditor/team lead uses the third-party time-management system instead of a corporate Jira project"
+              class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium info-icon css-ci5apu-MuiSvgIcon-root"
+              data-mui-internal-clone-element="true"
+              data-testid="info-icon-test"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-overlay__buttons"
+    >
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled  css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </span>
+        Add User
+      </button>
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedError MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-180lf2n-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+        Cancel
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1 @@
+export { SettingsTableBtnsBlock } from './TableBtnsBlock';

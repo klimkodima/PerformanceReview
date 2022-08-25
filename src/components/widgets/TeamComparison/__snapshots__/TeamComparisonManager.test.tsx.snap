@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamComparisonManager test TeamComparisonManager 2 rows table 1`] = `
+<div
+  className="comparison-table-container"
+  data-testid="comparison-table-container"
+>
+  <div
+    className="comparison-table-wrapper"
+  >
+    <h2
+      className="comparison-table-header"
+      data-testid="comparison-table-header"
+    >
+      Team Comparison
+    </h2>
+    <div
+      className="MuiTableContainer-root comparison-table css-rorn0c-MuiTableContainer-root"
+    >
+      <table
+        className="MuiTable-root MuiTable-stickyHeader comparison-table-content css-xn82ks-MuiTable-root"
+        role={null}
+      >
+        <thead
+          className="MuiTableHead-root comparison-table-head css-15wwp11-MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-head-cell css-dwuj3p-MuiTableCell-root"
+              data-testid="comparison-table-head-cell"
+              scope="col"
+            >
+              <span
+                className="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                TEAM
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                  data-testid="ArrowDownwardIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-head-cell css-dwuj3p-MuiTableCell-root"
+              data-testid="comparison-table-head-cell"
+              scope="col"
+            >
+              <span
+                className="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                AVERAGE POINTS
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                  data-testid="ArrowDownwardIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-head-cell css-dwuj3p-MuiTableCell-root"
+              data-testid="comparison-table-head-cell"
+              scope="col"
+            >
+              <span
+                className="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                AVERAGE PERFORMANCE
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                  data-testid="ArrowDownwardIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-head-cell css-dwuj3p-MuiTableCell-root"
+              data-testid="comparison-table-head-cell"
+              scope="col"
+            >
+              <span
+                className="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                AVERAGE VALIDITY
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                  data-testid="ArrowDownwardIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-head-cell css-dwuj3p-MuiTableCell-root"
+              data-testid="comparison-table-head-cell"
+              scope="col"
+            >
+              <span
+                className="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                AVERAGE HOURS CORRESPONDENCE
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                  data-testid="ArrowDownwardIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                  />
+                </svg>
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-hover comparison-table-row css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-name-cell"
+            >
+              Alpha
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-points-cell"
+            >
+              25
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-performance-cell"
+            >
+              3
+               tasks/h
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-validity-cell"
+            >
+              100
+              %
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-correspondence-cell"
+            >
+              97
+              %
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root MuiTableRow-hover comparison-table-row css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-name-cell"
+            >
+              Charlie
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell min-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-points-cell"
+            >
+              13
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell min-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-performance-cell"
+            >
+              1
+               task/h
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-validity-cell"
+            >
+              100
+              %
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium comparison-table-cell max-value-color css-1yhpg23-MuiTableCell-root"
+              data-testid="comparison-table-correspondence-cell"
+            >
+              97
+              %
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TeamComparisonManager test TeamComparisonManager empty widget 1`] = `
+<div
+  className="comparison-table-container"
+  data-testid="comparison-table-container"
+>
+  <div
+    className="comparison-table-wrapper"
+  >
+    <h2
+      className="comparison-table-header"
+      data-testid="comparison-table-header"
+    >
+      Team Comparison
+    </h2>
+    <div
+      className="comparison-table-placeholder"
+    >
+      <p>
+        Widget is empty
+      </p>
+    </div>
+  </div>
+</div>
+`;

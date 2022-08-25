@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterListItem Matches snapshot 1`] = `
+<li
+  className="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+  disabled={false}
+>
+  <div
+    className="filter-list-item"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 filter-list-item__filter-name css-ahj2mt-MuiTypography-root"
+      data-testid="filter-list-item__filter-name"
+    >
+      Alpha
+    </p>
+    <button
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium filter-list-item__delete-button css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+      disabled={false}
+      name="Alpha"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+      value="TEAM"
+    >
+      +
+    </button>
+  </div>
+</li>
+`;

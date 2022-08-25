@@ -1,0 +1,22 @@
+.average-accuracy {
+  &__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__img-block {
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    p {
+      position: absolute;
+      font-size: 45px;
+      font-weight: 600;
+      color: #787878;
+      top: 46%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

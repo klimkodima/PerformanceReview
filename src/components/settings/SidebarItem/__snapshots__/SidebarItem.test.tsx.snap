@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarItem renders correctly 1`] = `
+<li
+  className="sidebar-list-item active"
+  data-testid="sidebar-list-item"
+  onClick={[Function]}
+>
+  Task
+</li>
+`;

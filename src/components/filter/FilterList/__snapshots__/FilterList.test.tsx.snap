@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterList Matches snapshot 1`] = `
+<ul
+  class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+  data-testid="filter-list-test"
+>
+  <div
+    class="filter-list__name"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 title css-ahj2mt-MuiTypography-root"
+    >
+      TEAM
+    </p>
+    <button
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium plus-button filter-list-button-TEAM css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+      tabindex="0"
+      type="button"
+    >
+      +
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</ul>
+`;

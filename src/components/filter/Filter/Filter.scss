@@ -1,0 +1,27 @@
+.filter {
+  padding: 15px;
+
+  &__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: #818181;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.00938em;
+  }
+
+  .clear-button {
+    color: #9f9f9f;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 0;
+  }
+}

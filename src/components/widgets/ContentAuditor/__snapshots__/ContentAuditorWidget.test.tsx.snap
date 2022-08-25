@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component Matches snapshot 1`] = `
+<div
+  className="widgets-wrapper widget"
+  data-testid="widget"
+  id="content-auditor-widget"
+>
+  <div
+    className="widget__content content"
+    data-testid="content"
+  >
+    <h3
+      className="content__header"
+      data-testid="content-header"
+    >
+      Content Auditor
+    </h3>
+    <div
+      className="content__block"
+      data-testid="content-block"
+    >
+      <div
+        className="content__row"
+        data-testid="container"
+      >
+        <span
+          className="label"
+          data-testid="label"
+        >
+          Name
+          :
+        </span>
+        <span
+          aria-label="Name:Jim"
+          className="text"
+          data-testid="text"
+        >
+          Jim
+        </span>
+      </div>
+      <div
+        className="content__row"
+        data-testid="container"
+      >
+        <span
+          className="label"
+          data-testid="label"
+        >
+          Team
+          :
+        </span>
+        <span
+          aria-label="Team:Alpha"
+          className="text"
+          data-testid="text"
+        >
+          Alpha
+        </span>
+      </div>
+      <div
+        className="content__row"
+        data-testid="container"
+      >
+        <span
+          className="label"
+          data-testid="label"
+        >
+          Current Level
+          :
+        </span>
+        <span
+          aria-label="Current Level:Team Lead"
+          className="text"
+          data-testid="text"
+        >
+          Team Lead
+        </span>
+      </div>
+      <div
+        className="content__row"
+        data-testid="container"
+      >
+        <span
+          className="label"
+          data-testid="label"
+        >
+          Team Lead
+          :
+        </span>
+        <span
+          aria-label="Team Lead:Kevin"
+          className="text"
+          data-testid="text"
+        >
+          Kevin
+        </span>
+      </div>
+      <div
+        className="content__row"
+        data-testid="container"
+      >
+        <span
+          className="label"
+          data-testid="label"
+        >
+          Experience in PV
+          :
+        </span>
+        <span
+          aria-label="Experience in PV:1 year 3 months"
+          className="text"
+          data-testid="text"
+        >
+          1 year 3 months
+        </span>
+      </div>
+    </div>
+    <div
+      className="content__img"
+      data-testid="image-block"
+    >
+      <img
+        alt="user icon"
+        data-testid="image"
+        src="01_Auditor_icon.png"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,40 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+
+  &__header {
+    align-self: center;
+    color: #787878;
+    font-weight: 700;
+  }
+
+  & .login-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__input {
+      margin-top: 15px;
+      outline: none;
+      width: 300px;
+
+      input {
+        padding: 6px 8px;
+      }
+    }
+
+    &__button {
+      margin-top: 15px;
+    }
+
+    &__error {
+      position: absolute;
+      text-align: center;
+      width: 300px;
+      top: 160px;
+      left: 0;
+      color: red;
+    }
+  }
+}

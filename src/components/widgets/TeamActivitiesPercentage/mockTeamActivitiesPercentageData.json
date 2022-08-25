@@ -1,0 +1,65 @@
+[
+  {
+    "teamName": "Charlie",
+    "labels": [
+      {
+        "name": "Audits",
+        "percentage": 39.8936170212766
+      },
+      {
+        "name": "Meetings",
+        "percentage": 24.73404255319149
+      },
+      {
+        "name": "Others",
+        "percentage": 16.75531914893617
+      },
+      {
+        "name": "Support",
+        "percentage": 18.617021276595743
+      }
+    ]
+  },
+  {
+    "teamName": "X-Rays",
+    "labels": [
+      {
+        "name": "Audits",
+        "percentage": 39.8936170212766
+      },
+      {
+        "name": "Meetings",
+        "percentage": 24.73404255319149
+      },
+      {
+        "name": "Others",
+        "percentage": 16.75531914893617
+      },
+      {
+        "name": "Support",
+        "percentage": 18.617021276595743
+      }
+    ]
+  },
+  {
+    "teamName": "Alpha",
+    "labels": [
+      {
+        "name": "Audits",
+        "percentage": 39.8936170212766
+      },
+      {
+        "name": "Meetings",
+        "percentage": 24.73404255319149
+      },
+      {
+        "name": "Others",
+        "percentage": 16.75531914893617
+      },
+      {
+        "name": "Support",
+        "percentage": 18.617021276595743
+      }
+    ]
+  }
+]

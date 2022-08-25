@@ -1,0 +1,12 @@
+.filter-checkbox-wrapper {
+  min-width: 250px;
+  padding-left: 10px;
+
+  .checkbox {
+    color: #818181;
+
+    &.Mui-checked {
+      color: #787878;
+    }
+  }
+}

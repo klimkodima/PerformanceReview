@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card  Component Matches snapshots Matches not zero snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-row"
+  >
+    <label
+      className="card-label"
+      data-testid="totalTimeLabel"
+    >
+      Total time
+      :
+    </label>
+    <span
+      className="card-value"
+      data-testid="totalTime"
+    >
+      63
+      h
+    </span>
+  </div>
+  <div
+    className="card-row"
+  >
+    <label
+      className="card-label"
+    >
+      Audits
+      :
+    </label>
+    <span
+      className="card-value"
+    >
+      26
+      h
+    </span>
+  </div>
+  <div
+    className="card-row"
+  >
+    <label
+      className="card-label"
+    >
+      Meetings
+      :
+    </label>
+    <span
+      className="card-value"
+    >
+      16
+      h
+    </span>
+  </div>
+  <div
+    className="card-row"
+  >
+    <label
+      className="card-label"
+    >
+      Support
+      :
+    </label>
+    <span
+      className="card-value"
+    >
+      11
+      h
+    </span>
+  </div>
+  <div
+    className="card-row"
+  >
+    <label
+      className="card-label"
+    >
+      Others
+      :
+    </label>
+    <span
+      className="card-value"
+    >
+      10
+      h
+    </span>
+  </div>
+</div>
+`;

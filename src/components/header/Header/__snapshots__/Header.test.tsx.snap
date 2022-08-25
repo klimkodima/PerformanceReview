@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header don't show settings icon on audit level 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__wrapper"
+  >
+    <div
+      className="title-and-logo"
+      id="title-and-logo"
+    >
+      <h2
+        className="dashboard-name"
+        id="dashboard-name"
+        onClick={[Function]}
+      >
+        PERFORMANCE REVIEW
+      </h2>
+      <div
+        className="header__logoIcon"
+      >
+        <img
+          alt="logo icon"
+          src="header-icon.png"
+        />
+      </div>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium logoutIcon css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+        data-testid="logout-icon"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <img
+          alt="logout icon"
+          src="logout-icon.png"
+        />
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`HeaderContainer Matches snapshot 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__wrapper"
+  >
+    <div
+      className="title-and-logo"
+      id="title-and-logo"
+    >
+      <h2
+        className="dashboard-name"
+        id="dashboard-name"
+        onClick={[Function]}
+      >
+        PERFORMANCE REVIEW
+      </h2>
+      <div
+        className="header__logoIcon"
+      >
+        <img
+          alt="logo icon"
+          src="header-icon.png"
+        />
+      </div>
+    </div>
+  </div>
+</header>
+`;

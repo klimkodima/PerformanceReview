@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch test Switch renders correctly 1`] = `
+<div
+  className="switch-wrapper-external"
+>
+  <p
+    className=""
+  >
+    Active
+  </p>
+  <label
+    className="disabled-switch"
+    data-testid="switch-label-test"
+  >
+    <input
+      checked={false}
+      disabled={true}
+      name="switch"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="switch"
+    />
+  </label>
+  <p
+    className="disabled"
+  >
+    Inactive
+  </p>
+</div>
+`;

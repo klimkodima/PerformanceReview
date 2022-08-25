@@ -1,0 +1,156 @@
+[
+  {
+    "id": 6,
+    "fullName": "Tatiana Klimchenya",
+    "username": "Tatiana",
+    "email": "TatianaKlimchenya@gmail.com",
+    "enabled": true,
+    "roleName": "TEAM_LEADER",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "TEAM_LEAD"
+  },
+  {
+    "id": 7,
+    "fullName": "Anastasya Karman",
+    "username": "Anastasya",
+    "email": "AnastasyaKarman@gmail.com",
+    "enabled": true,
+    "roleName": "TEAM_LEADER",
+    "teamId": 2,
+    "teamName": "Charlie",
+    "level": "TEAM_LEAD"
+  },
+  {
+    "id": 8,
+    "fullName": "Bogdana Korniyuk",
+    "username": "Bogdana",
+    "email": "BogdanaKorniyuk@gmail.com",
+    "enabled": true,
+    "roleName": "TEAM_LEADER",
+    "teamId": 3,
+    "teamName": "Alpha",
+    "level": "TEAM_LEAD"
+  },
+  {
+    "id": 9,
+    "fullName": "testAlexander",
+    "username": "username0",
+    "email": "0email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 2,
+    "teamName": "Charlie",
+    "level": "JUNIOR"
+  },
+  {
+    "id": 10,
+    "fullName": "full name1",
+    "username": "username1",
+    "email": "1email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "JUNIOR"
+  },
+  {
+    "id": 11,
+    "fullName": "full name2",
+    "username": "username2",
+    "email": "2email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "MIDDLE"
+  },
+  {
+    "id": 12,
+    "fullName": "full name3",
+    "username": "username3",
+    "email": "3email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "MIDDLE"
+  },
+  {
+    "id": 13,
+    "fullName": "full name4",
+    "username": "username4",
+    "email": "4email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "MIDDLE"
+  },
+  {
+    "id": 14,
+    "fullName": "full name5",
+    "username": "username5",
+    "email": "5email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "SENIOR"
+  },
+  {
+    "id": 15,
+    "fullName": "full name6",
+    "username": "username6",
+    "email": "6email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "SENIOR"
+  },
+  {
+    "id": 16,
+    "fullName": "full name7",
+    "username": "username7",
+    "email": "7email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "SENIOR"
+  },
+  {
+    "id": 17,
+    "fullName": "full name8",
+    "username": "username8",
+    "email": "8email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "SENIOR"
+  },
+  {
+    "id": 18,
+    "fullName": "full name9",
+    "username": "username9",
+    "email": "9email@email",
+    "enabled": true,
+    "roleName": "AUDITOR",
+    "teamId": 2,
+    "teamName": "Charlie",
+    "level": "TEAM_LEAD"
+  },
+  {
+    "id": 19,
+    "fullName": "full name19",
+    "username": "username19",
+    "email": "19email@email",
+    "enabled": false,
+    "roleName": "AUDITOR",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "TEAM_LEAD"
+  }
+]

@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #d7d7d7;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  max-width: 450px;
+  &:hover {
+    background-color: #f6f6f6;
+  }
+  &__icon {
+    margin: 0 15px;
+    color: #787878;
+  }
+  .MuiInputBase-root {
+    flex: 1;
+    margin-left: 10px;
+    height: 44px;
+  }
+  button {
+    padding: 10px;
+  }
+  button.search__hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hours Correspondence table tests Hours Correspondence table snapshot 1`] = `
+<div
+  className="hours-correspondence settings-table"
+>
+  <div
+    className="settings-table__wrapper"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        className="MuiTable-root css-rqglhn-MuiTable-root"
+        role={null}
+      >
+        <thead
+          className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Status
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Icon
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Gap
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Confirmation Rate
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Tooltip Text
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              ok
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium td__file-load file-load css-1ex1afd-MuiTableCell-root"
+            >
+              <img
+                alt="icon"
+                src="data:image/png;base64,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"
+              />
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              51% - 100%
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              80%
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              text
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              ne ok
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium td__file-load file-load css-1ex1afd-MuiTableCell-root"
+            >
+              <img
+                alt="icon"
+                src="data:image/png;base64,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"
+              />
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              1% - 50%
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              80%
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              text
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="settings-table__btns-block"
+    >
+      <button
+        className="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root btns-block__edit-btn css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="EditIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+        Edit Table
+      </button>
+    </div>
+  </div>
+</div>
+`;

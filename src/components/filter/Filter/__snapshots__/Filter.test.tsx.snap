@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Matches snapshot 1`] = `
+<div
+  className="filter"
+>
+  <div
+    className="filter__wrapper"
+  >
+    <div
+      className="filter__header"
+    >
+      <h3
+        className="filter__title"
+      >
+        FILTERS
+      </h3>
+      <button
+        className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled clear-button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        disabled={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        CLEAR
+      </button>
+    </div>
+    <div>
+      <div
+        className="filter-list"
+      >
+        <ul
+          className="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          data-testid="filter-list-test"
+        >
+          <div
+            className="filter-list__name"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 title css-ahj2mt-MuiTypography-root"
+            >
+              TEAM
+            </p>
+            <button
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium plus-button filter-list-button-TEAM css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              +
+            </button>
+          </div>
+        </ul>
+      </div>
+      <div
+        className="filter-list"
+      >
+        <ul
+          className="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          data-testid="filter-list-test"
+        >
+          <div
+            className="filter-list__name"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 title css-ahj2mt-MuiTypography-root"
+            >
+              LEVEL
+            </p>
+            <button
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium plus-button filter-list-button-LEVEL css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              +
+            </button>
+          </div>
+        </ul>
+      </div>
+      <div
+        className="filter-list"
+      >
+        <ul
+          className="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          data-testid="filter-list-test"
+        >
+          <div
+            className="filter-list__name"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 title css-ahj2mt-MuiTypography-root"
+            >
+              AUDITOR
+            </p>
+            <button
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium plus-button filter-list-button-AUDITOR css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              +
+            </button>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

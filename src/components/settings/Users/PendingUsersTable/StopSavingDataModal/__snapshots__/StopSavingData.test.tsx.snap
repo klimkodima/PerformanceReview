@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StopSavingDataModal tests StopSavingDataModal snapshot 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body "
+  >
+    <div
+      class="stop-saving-modal"
+    >
+      <p>
+        Are you sure you want to stop saving data for these users:
+      </p>
+      <p
+        class="stop-saving-modal__subtitle"
+      >
+         Pety Petrov
+      </p>
+    </div>
+    <div
+      class="stop-saving-modal"
+    >
+       
+      <p>
+        The data storage for the users:
+        <span
+          class="stop-saving-modal__subtitle"
+        >
+           Egor Egorov
+        </span>
+         is not performed.
+      </p>
+    </div>
+    <div
+      class="modal-overlay__buttons"
+    >
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </span>
+        Yes
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedError MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-180lf2n-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+        Cancel
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

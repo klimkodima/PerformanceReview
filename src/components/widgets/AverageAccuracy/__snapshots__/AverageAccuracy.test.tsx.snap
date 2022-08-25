@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render AverageAccuracy AverageAccuracy snapshot 1`] = `
+<div
+  className="widgets-wrapper average-accuracy"
+>
+  <h2>
+    Average Accuracy of Team Properties
+  </h2>
+  <div
+    className="average-accuracy__container"
+  >
+    <div
+      className="average-accuracy__img-block"
+    >
+      <img
+        alt="average-accuracy"
+        src="mark-average-accuracy-yellow.svg"
+      />
+      <p>
+        70
+        %
+      </p>
+    </div>
+  </div>
+</div>
+`;

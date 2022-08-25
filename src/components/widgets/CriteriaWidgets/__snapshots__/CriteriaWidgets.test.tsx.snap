@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Criteria widget container tests Criteria widget snapshot 1`] = `
+<div
+  className="criteria-container"
+  data-testid="criteria-container"
+>
+  <div
+    className="criteria-item"
+    data-testid="criteria-item"
+  >
+    <div
+      className="criteria-item__title-block"
+    >
+      <span
+        className="criteria-item__title"
+        data-testid="criteria-item-title"
+      >
+        Average Performance
+      </span>
+      <svg
+        aria-hidden={true}
+        aria-label="Average number of task units performed for 1 audit hour. Task unit = 1 completed task multiplied by a special coefficient that considers the task complexity, number of task solutions, and the website/website group for which the task was performed."
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium criteria-item__icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="criteria-item-info-icon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <span
+      className="criteria-item-statistic"
+      data-testid="criteria-item-statistic"
+    >
+      50
+       units/h
+    </span>
+  </div>
+  <div
+    className="criteria-item"
+    data-testid="criteria-item"
+  >
+    <div
+      className="criteria-item__title-block"
+    >
+      <span
+        className="criteria-item__title"
+        data-testid="criteria-item-title"
+      >
+        Average Validity
+      </span>
+      <svg
+        aria-hidden={true}
+        aria-label="Percent of correctly performed tasks"
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium criteria-item__icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="criteria-item-info-icon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <span
+      className="criteria-item-statistic"
+      data-testid="criteria-item-statistic"
+    >
+      100
+      %
+    </span>
+  </div>
+  <div
+    className="criteria-item"
+    data-testid="criteria-item"
+  >
+    <div
+      className="criteria-item__title-block"
+    >
+      <span
+        className="criteria-item__title"
+        data-testid="criteria-item-title"
+      >
+        Hours Correspondence
+      </span>
+      <svg
+        aria-hidden={true}
+        aria-label="Ratio of the hours spent for audits in Jira and time spent for audits in the system"
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium criteria-item__icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="criteria-item-info-icon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <span
+      className="criteria-item-statistic"
+      data-testid="criteria-item-statistic"
+    >
+      100
+      %
+    </span>
+    <div
+      className="criteria-item-smile"
+      data-testid="criteria-item-smile"
+    >
+      <p
+        className="tooltip-text"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        Your hours' correspondence status is Good - 100% of hours are approved for the points' calculations
+      </p>
+      <img
+        alt="icon"
+        aria-label="Your hours' correspondence status is Good - 100% of hours are approved for the points' calculations"
+        aria-labelledby={null}
+        className=""
+        data-mui-internal-clone-element={true}
+        data-testid="criteria-item-tooltip"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        src="data:image/png;base64,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"
+      />
+    </div>
+  </div>
+  <div
+    className="criteria-item"
+    data-testid="criteria-item"
+  >
+    <div
+      className="criteria-item__title-block"
+    >
+      <span
+        className="criteria-item__title"
+        data-testid="criteria-item-title"
+      >
+        Support/Audits Hours
+      </span>
+      <svg
+        aria-hidden={true}
+        aria-label="Sum of hours spent for the audits and support tasks."
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium criteria-item__icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="criteria-item-info-icon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <span
+      className="criteria-item-statistic"
+      data-testid="criteria-item-statistic"
+    >
+      2
+      h
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+.placeholder {
+  display: flex;
+  flex-direction: column;
+}
+.team-activities-percentage {
+  border: 2px solid #d7d7d7;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+
+  .team-activities-percentage-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+
+    p {
+      margin-bottom: 20px;
+      color: #787878;
+      font-size: 18px;
+      font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    }
+  }
+
+  &__title {
+    color: #787878;
+    margin: 20px 0 30px 0;
+  }
+
+  .circles {
+    display: flex;
+    justify-content: center;
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1500px;
+
+      @media screen and (max-width: 1337px) {
+        justify-content: center;
+      }
+    }
+  }
+}

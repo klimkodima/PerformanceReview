@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181" height="180" viewBox="0 0 181 180">
+    <defs>
+        <circle id="aa" cx="90" cy="90" r="90"/>
+        <circle id="a" cx="71" cy="71" r="50"/>
+        <mask id="ac" width="108.235" height="108.235" x="-4.118" y="-4.118">
+            <path fill="#fff" d="M16.882 16.882h108.235v108.235H16.882z"/>
+            <use xlink:href="#a"/>
+        </mask>
+        <circle id="b" cx="71" cy="71" r="50"/>
+        <mask id="ad" width="108.235" height="108.235" x="-4.118" y="-4.118">
+            <path fill="#fff" d="M16.882 16.882h108.235v108.235H16.882z"/>
+            <use xlink:href="#b"/>
+        </mask>
+        <circle id="c" cx="71" cy="71" r="50"/>
+        <mask id="ae" width="108.235" height="108.235" x="-4.118" y="-4.118">
+            <path fill="#fff" d="M16.882 16.882h108.235v108.235H16.882z"/>
+            <use xlink:href="#c"/>
+        </mask>
+        <circle id="d" cx="71" cy="71" r="50"/>
+        <mask id="af" width="111.765" height="111.765" x="-5.882" y="-5.882">
+            <path fill="#fff" d="M15.118 15.118h111.765v111.765H15.118z"/>
+            <use xlink:href="#d"/>
+        </mask>
+        <circle id="e" cx="71" cy="71" r="50"/>
+        <mask id="ag" width="111.765" height="111.765" x="-5.882" y="-5.882">
+            <path fill="#fff" d="M15.118 15.118h111.765v111.765H15.118z"/>
+            <use xlink:href="#e"/>
+        </mask>
+        <circle id="f" cx="71" cy="71" r="50"/>
+        <mask id="ah" width="111.765" height="111.765" x="-5.882" y="-5.882">
+            <path fill="#fff" d="M15.118 15.118h111.765v111.765H15.118z"/>
+            <use xlink:href="#f"/>
+        </mask>
+        <circle id="g" cx="71" cy="71" r="50"/>
+        <mask id="ai" width="111.765" height="111.765" x="-5.882" y="-5.882">
+            <path fill="#fff" d="M15.118 15.118h111.765v111.765H15.118z"/>
+            <use xlink:href="#g"/>
+        </mask>
+        <circle id="h" cx="71" cy="71" r="50"/>
+        <mask id="aj" width="108.824" height="108.824" x="-4.412" y="-4.412">
+            <path fill="#fff" d="M16.588 16.588h108.824v108.824H16.588z"/>
+            <use xlink:href="#h"/>
+        </mask>
+        <circle id="i" cx="71" cy="71" r="50"/>
+        <mask id="ak" width="108.824" height="108.824" x="-4.412" y="-4.412">
+            <path fill="#fff" d="M16.588 16.588h108.824v108.824H16.588z"/>
+            <use xlink:href="#i"/>
+        </mask>
+        <circle id="j" cx="71" cy="71" r="50"/>
+        <mask id="al" width="108.824" height="108.824" x="-4.412" y="-4.412">
+            <path fill="#fff" d="M16.588 16.588h108.824v108.824H16.588z"/>
+            <use xlink:href="#j"/>
+        </mask>
+        <circle id="k" cx="71" cy="71" r="50"/>
+        <mask id="am" width="108.824" height="108.824" x="-4.412" y="-4.412">
+            <path fill="#fff" d="M16.588 16.588h108.824v108.824H16.588z"/>
+            <use xlink:href="#k"/>
+        </mask>
+        <circle id="l" cx="71" cy="71" r="50"/>
+        <mask id="an" width="105.882" height="105.882" x="-2.941" y="-2.941">
+            <path fill="#fff" d="M18.059 18.059h105.882v105.882H18.059z"/>
+            <use xlink:href="#l"/>
+        </mask>
+        <circle id="m" cx="71" cy="71" r="50"/>
+        <mask id="ao" width="105.882" height="105.882" x="-2.941" y="-2.941">
+            <path fill="#fff" d="M18.059 18.059h105.882v105.882H18.059z"/>
+            <use xlink:href="#m"/>
+        </mask>
+        <circle id="n" cx="71" cy="71" r="50"/>
+        <mask id="ap" width="104.706" height="104.706" x="-2.353" y="-2.353">
+            <path fill="#fff" d="M18.647 18.647h104.706v104.706H18.647z"/>
+            <use xlink:href="#n"/>
+        </mask>
+        <circle id="o" cx="149.75" cy="149.75" r="50"/>
+        <mask id="aq" width="105.882" height="105.882" x="-2.941" y="-2.941">
+            <path fill="#fff" d="M96.809 96.809h105.882v105.882H96.809z"/>
+            <use xlink:href="#o"/>
+        </mask>
+        <circle id="p" cx="92" cy="92" r="60"/>
+        <mask id="ar" width="125.909" height="125.909" x="-2.955" y="-2.955">
+            <path fill="#fff" d="M29.045 29.045h125.909v125.909H29.045z"/>
+            <use xlink:href="#p"/>
+        </mask>
+        <circle id="q" cx="92" cy="92" r="60"/>
+        <mask id="as" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#q"/>
+        </mask>
+        <circle id="r" cx="92" cy="92" r="60"/>
+        <mask id="at" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#r"/>
+        </mask>
+        <circle id="s" cx="92" cy="92" r="60"/>
+        <mask id="au" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#s"/>
+        </mask>
+        <circle id="t" cx="92" cy="92" r="60"/>
+        <mask id="av" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#t"/>
+        </mask>
+        <circle id="u" cx="92" cy="92" r="60"/>
+        <mask id="aw" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#u"/>
+        </mask>
+        <circle id="v" cx="92" cy="92" r="60"/>
+        <mask id="ax" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#v"/>
+        </mask>
+        <circle id="w" cx="92" cy="92" r="60"/>
+        <mask id="ay" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#w"/>
+        </mask>
+        <circle id="x" cx="92" cy="92" r="60"/>
+        <mask id="az" width="131.818" height="131.818" x="-5.909" y="-5.909">
+            <path fill="#fff" d="M26.091 26.091h131.818v131.818H26.091z"/>
+            <use xlink:href="#x"/>
+        </mask>
+        <circle id="y" cx="92.5" cy="92.5" r="63.5"/>
+        <mask id="aA" width="131.727" height="131.727" x="-2.364" y="-2.364">
+            <path fill="#fff" d="M26.636 26.636h131.727v131.727H26.636z"/>
+            <use xlink:href="#y"/>
+        </mask>
+        <circle id="z" cx="92" cy="92" r="65"/>
+        <mask id="aB" width="132.364" height="132.364" x="-1.182" y="-1.182">
+            <path fill="#fff" d="M25.818 25.818h132.364v132.364H25.818z"/>
+            <use xlink:href="#z"/>
+        </mask>
+        <circle id="A" cx="92" cy="92" r="65"/>
+        <mask id="aC" width="132.364" height="132.364" x="-1.182" y="-1.182">
+            <path fill="#fff" d="M25.818 25.818h132.364v132.364H25.818z"/>
+            <use xlink:href="#A"/>
+        </mask>
+        <circle id="B" cx="92" cy="92" r="65"/>
+        <mask id="aD" width="131.814" height="131.814" x="-.907" y="-.907">
+            <path fill="#fff" d="M26.093 26.093h131.814v131.814H26.093z"/>
+            <use xlink:href="#B"/>
+        </mask>
+        <circle id="C" cx="92" cy="92" r="63"/>
+        <mask id="aE" width="127.752" height="127.752" x="-.876" y="-.876">
+            <path fill="#fff" d="M28.124 28.124h127.752v127.752H28.124z"/>
+            <use xlink:href="#C"/>
+        </mask>
+        <circle id="D" cx="92.5" cy="92.5" r="60.5"/>
+        <mask id="aF" width="122.678" height="122.678" x="-.839" y="-.839">
+            <path fill="#fff" d="M31.161 31.161h122.678v122.678H31.161z"/>
+            <use xlink:href="#D"/>
+        </mask>
+        <circle id="E" cx="105.5" cy="105.5" r="70"/>
+        <mask id="aG" width="146" height="146" x="-3" y="-3">
+            <path fill="#fff" d="M32.5 32.5h146v146h-146z"/>
+            <use xlink:href="#E"/>
+        </mask>
+        <circle id="F" cx="106" cy="106" r="74.5"/>
+        <mask id="aH" width="156.368" height="156.368" x="-3.684" y="-3.684">
+            <path fill="#fff" d="M27.816 27.816h156.368v156.368H27.816z"/>
+            <use xlink:href="#F"/>
+        </mask>
+        <circle id="G" cx="106" cy="106" r="74.5"/>
+        <mask id="aI" width="156.368" height="156.368" x="-3.684" y="-3.684">
+            <path fill="#fff" d="M27.816 27.816h156.368v156.368H27.816z"/>
+            <use xlink:href="#G"/>
+        </mask>
+        <circle id="H" cx="105.5" cy="105.5" r="80"/>
+        <mask id="aJ" width="162.817" height="162.817" x="-1.408" y="-1.408">
+            <path fill="#fff" d="M24.092 24.092h162.817v162.817H24.092z"/>
+            <use xlink:href="#H"/>
+        </mask>
+        <circle id="I" cx="106" cy="106" r="74.5"/>
+        <mask id="aK" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 26.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#I"/>
+        </mask>
+        <circle id="J" cx="106" cy="106" r="74.5"/>
+        <mask id="aL" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 26.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#J"/>
+        </mask>
+        <circle id="K" cx="106" cy="106" r="74.5"/>
+        <mask id="aM" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 26.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#K"/>
+        </mask>
+        <circle id="L" cx="106" cy="105" r="74.5"/>
+        <mask id="aN" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 25.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#L"/>
+        </mask>
+        <circle id="M" cx="106" cy="106" r="74.5"/>
+        <mask id="aO" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 26.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#M"/>
+        </mask>
+        <circle id="N" cx="106" cy="106" r="74.5"/>
+        <mask id="aP" width="154.263" height="154.263" x="-2.632" y="-2.632">
+            <path fill="#fff" d="M28.868 28.868h154.263v154.263H28.868z"/>
+            <use xlink:href="#N"/>
+        </mask>
+        <circle id="O" cx="106" cy="106" r="74.5"/>
+        <mask id="aQ" width="154.263" height="154.263" x="-2.632" y="-2.632">
+            <path fill="#fff" d="M28.868 28.868h154.263v154.263H28.868z"/>
+            <use xlink:href="#O"/>
+        </mask>
+        <circle id="P" cx="106" cy="106" r="74.5"/>
+        <mask id="aR" width="154.263" height="154.263" x="-2.632" y="-2.632">
+            <path fill="#fff" d="M28.868 28.868h154.263v154.263H28.868z"/>
+            <use xlink:href="#P"/>
+        </mask>
+        <circle id="Q" cx="106" cy="106" r="74.5"/>
+        <mask id="aS" width="154.263" height="154.263" x="-2.632" y="-2.632">
+            <path fill="#fff" d="M28.868 28.868h154.263v154.263H28.868z"/>
+            <use xlink:href="#Q"/>
+        </mask>
+        <circle id="R" cx="106" cy="106" r="74.5"/>
+        <mask id="aT" width="159.526" height="159.526" x="-5.263" y="-5.263">
+            <path fill="#fff" d="M26.237 26.237h159.526v159.526H26.237z"/>
+            <use xlink:href="#R"/>
+        </mask>
+        <circle id="S" cx="106" cy="106" r="74.5"/>
+        <mask id="aU" width="154.263" height="154.263" x="-2.632" y="-2.632">
+            <path fill="#fff" d="M28.868 28.868h154.263v154.263H28.868z"/>
+            <use xlink:href="#S"/>
+        </mask>
+        <circle id="T" cx="113" cy="113" r="80"/>
+        <mask id="aV" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#T"/>
+        </mask>
+        <circle id="U" cx="113" cy="113" r="80"/>
+        <mask id="aW" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#U"/>
+        </mask>
+        <circle id="V" cx="113" cy="113" r="80"/>
+        <mask id="aX" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#V"/>
+        </mask>
+        <circle id="W" cx="113" cy="113" r="80"/>
+        <mask id="aY" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#W"/>
+        </mask>
+        <circle id="X" cx="113" cy="113" r="80"/>
+        <mask id="aZ" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#X"/>
+        </mask>
+        <circle id="Y" cx="113" cy="113" r="80"/>
+        <mask id="ba" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#Y"/>
+        </mask>
+        <circle id="Z" cx="113" cy="113" r="80"/>
+        <mask id="bb" width="162.632" height="162.632" x="-1.316" y="-1.316">
+            <path fill="#fff" d="M31.684 31.684h162.632v162.632H31.684z"/>
+            <use xlink:href="#Z"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(.126)">
+        <mask id="ab" fill="#fff">
+            <use xlink:href="#aa"/>
+        </mask>
+        <use fill="#FA414B" xlink:href="#aa"/>
+        <g mask="url(#ab)">
+            <g transform="translate(-59.75 -59.75)">
+                <circle cx="149.75" cy="149.75" r="56" fill="#FFF"/>
+                <g fill-rule="nonzero" stroke="#FFF" transform="rotate(90 70.875 149.625)">
+                    <use stroke-dasharray="4.411764764785767,323.529428100586" stroke-width="8.235" mask="url(#ac)" transform="rotate(-175 71 71)" xlink:href="#a"/>
+                    <use stroke-dasharray="4.411764764785767,323.529428100586" stroke-width="8.235" mask="url(#ad)" transform="rotate(-168 71 71)" xlink:href="#b"/>
+                    <use stroke-dasharray="4.411764764785767,323.529428100586" stroke-width="8.235" mask="url(#ae)" transform="rotate(-161 71 71)" xlink:href="#c"/>
+                    <use stroke-dasharray="2.05882351398468,323.529428100586" stroke-width="11.765" mask="url(#af)" transform="rotate(-157 71 71)" xlink:href="#d"/>
+                    <use stroke-dasharray="2.05882351398468,323.529428100586" stroke-width="11.765" mask="url(#ag)" transform="rotate(-153 71 71)" xlink:href="#e"/>
+                    <use stroke-dasharray="2.05882351398468,323.529428100586" stroke-width="11.765" mask="url(#ah)" transform="rotate(-149 71 71)" xlink:href="#f"/>
+                    <use stroke-dasharray="2.05882351398468,323.529428100586" stroke-width="11.765" mask="url(#ai)" transform="rotate(-145 71 71)" xlink:href="#g"/>
+                    <use stroke-dasharray="4.70588207244873,311.7646911621094" stroke-width="8.824" mask="url(#aj)" transform="rotate(-30 71 71)" xlink:href="#h"/>
+                    <use stroke-dasharray="4.70588207244873,311.7646911621094" stroke-width="8.824" mask="url(#ak)" transform="rotate(-20 71 71)" xlink:href="#i"/>
+                    <use stroke-dasharray="8.823529529571534,297.0588317871094" stroke-width="8.824" mask="url(#al)" transform="rotate(-5 71 71)" xlink:href="#j"/>
+                    <use stroke-dasharray="8.823529529571534,297.0588317871094" stroke-width="8.824" mask="url(#am)" transform="rotate(20 71 71)" xlink:href="#k"/>
+                    <use stroke-dasharray="8.823529529571534,297.0588317871094" stroke-width="5.882" mask="url(#an)" transform="rotate(45 71 71)" xlink:href="#l"/>
+                    <use stroke-dasharray="8.823529529571534,297.0588317871094" stroke-width="5.882" mask="url(#ao)" transform="rotate(70 71 71)" xlink:href="#m"/>
+                    <use stroke-dasharray="88.23530044555665,294.1176544189453" stroke-width="4.706" mask="url(#ap)" transform="rotate(-40 71 71)" xlink:href="#n"/>
+                </g>
+                <use fill-rule="nonzero" stroke="#FFF" stroke-dasharray="79.41176147460938,294.1176544189453" stroke-width="5.882" mask="url(#aq)" transform="rotate(177 149.75 149.75)" xlink:href="#o"/>
+                <g fill-rule="nonzero" stroke="#FFF" transform="rotate(90 91.875 149.625)">
+                    <use stroke-dasharray="87.15908660888672,325.0000305175781" stroke-width="5.909" mask="url(#ar)" transform="rotate(-50 92 92)" xlink:href="#p"/>
+                    <use stroke-dasharray="5.90909013748169,325.0000305175781" stroke-width="11.818" mask="url(#as)" xlink:href="#q"/>
+                    <use stroke-dasharray="5.90909013748169,325.0000305175781" stroke-width="11.818" mask="url(#at)" transform="rotate(-7 92 92)" xlink:href="#r"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#au)" transform="rotate(15 92 92)" xlink:href="#s"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#av)" transform="rotate(11 92 92)" xlink:href="#t"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#aw)" transform="rotate(7 92 92)" xlink:href="#u"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#ax)" transform="scale(1 -1) rotate(15 790.81 0)" xlink:href="#v"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#ay)" transform="scale(1 -1) rotate(11 1047.457 0)" xlink:href="#w"/>
+                    <use stroke-dasharray="2.363636183738709,325.0000305175781" stroke-width="11.818" mask="url(#az)" transform="scale(1 -1) rotate(7 1596.187 0)" xlink:href="#x"/>
+                    <use stroke-dasharray="53.18182067871094,354.5454803466797" stroke-width="4.727" mask="url(#aA)" transform="rotate(115 92.5 92.5)" xlink:href="#y"/>
+                    <use stroke-dasharray="44.31818504333496,354.5454803466797" stroke-width="2.364" mask="url(#aB)" transform="rotate(-140 92 92)" xlink:href="#z"/>
+                    <use stroke-dasharray="29.5454532623291,455.0000152587891" stroke-width="2.364" mask="url(#aC)" transform="rotate(160 92 92)" xlink:href="#A"/>
+                    <use stroke-dasharray="29.5454532623291,443.1818023681641" stroke-width="1.814" mask="url(#aD)" transform="rotate(-20 92 92)" xlink:href="#B"/>
+                    <use stroke-dasharray="28.53822326660156,428.0734039306641" stroke-width="1.752" mask="url(#aE)" transform="rotate(-20 92 92)" xlink:href="#C"/>
+                    <use stroke-dasharray="27.32954692840576,409.9432159423828" stroke-width="1.678" mask="url(#aF)" transform="rotate(-20 92.5 92.5)" xlink:href="#D"/>
+                </g>
+                <g fill-rule="nonzero" stroke="#FFF" transform="rotate(-45 181.29 74.46)">
+                    <use stroke-dasharray="128.0000061035156,49.99999809265137" stroke-width="6" mask="url(#aG)" xlink:href="#E"/>
+                    <use stroke-dasharray="31.57894706726074,97.36842727661133" stroke-width="7.368" mask="url(#aH)" xlink:href="#F"/>
+                    <use stroke-dasharray="78.94736938476562,165.7894866943359" stroke-width="7.368" mask="url(#aI)" transform="rotate(-40 106 106)" xlink:href="#G"/>
+                    <use stroke-dasharray="105.2631683349609,134.2105224609375" stroke-width="2.817" mask="url(#aJ)" transform="rotate(-10 105.5 105.5)" xlink:href="#H"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aK)" transform="rotate(-175 106 106)" xlink:href="#I"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aL)" transform="rotate(-170 106 106)" xlink:href="#J"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aM)" transform="rotate(-165 106 106)" xlink:href="#K"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aN)" transform="rotate(-160 106 105)" xlink:href="#L"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aO)" transform="rotate(-155 106 106)" xlink:href="#M"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="5.263" mask="url(#aP)" transform="rotate(-150 106 106)" xlink:href="#N"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="5.263" mask="url(#aQ)" transform="rotate(-145 106 106)" xlink:href="#O"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="5.263" mask="url(#aR)" transform="rotate(-140 106 106)" xlink:href="#P"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="5.263" mask="url(#aS)" transform="rotate(-135 106 106)" xlink:href="#Q"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="10.526" mask="url(#aT)" transform="rotate(-130 106 106)" xlink:href="#R"/>
+                    <use stroke-dasharray="5.26315712928772,526.3158142089844" stroke-width="5.263" mask="url(#aU)" transform="rotate(-125 106 106)" xlink:href="#S"/>
+                </g>
+                <g fill-rule="nonzero" stroke="#FFF" stroke-width="2.632" transform="rotate(90 112.875 149.625)">
+                    <use stroke-dasharray="21.05262851715088,194.7368545532227" mask="url(#aV)" transform="rotate(18 113 113)" xlink:href="#T"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#aW)" transform="rotate(-90 113 113)" xlink:href="#U"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#aX)" transform="rotate(-100 113 113)" xlink:href="#V"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#aY)" transform="rotate(-110 113 113)" xlink:href="#W"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#aZ)" transform="rotate(30 113 113)" xlink:href="#X"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#ba)" transform="rotate(40 113 113)" xlink:href="#Y"/>
+                    <use stroke-dasharray="10.52631425857544,526.3158142089844" mask="url(#bb)" transform="rotate(50 113 113)" xlink:href="#Z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

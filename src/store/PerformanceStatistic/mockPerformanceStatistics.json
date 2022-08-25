@@ -1,0 +1,52 @@
+{
+  "points": [
+    {
+      "from": "2022-06-02",
+      "juniorsPoints": 12,
+      "middlesPoints": 6,
+      "seniorsPoints": 0,
+      "to": "2022-06-02",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 1 }]
+    },
+    {
+      "from": "2022-06-03",
+      "juniorsPoints": 10,
+      "middlesPoints": 8,
+      "seniorsPoints": 4,
+      "to": "2022-06-03",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 3 }]
+    },
+    {
+      "from": "2022-06-04",
+      "juniorsPoints": 6,
+      "middlesPoints": 14,
+      "seniorsPoints": 7,
+      "to": "2022-06-04",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 8 }]
+    },
+    {
+      "from": "2022-06-05",
+      "juniorsPoints": 12,
+      "middlesPoints": 8,
+      "seniorsPoints": 5,
+      "to": "2022-06-05",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 4 }]
+    },
+    {
+      "from": "2022-06-06",
+      "juniorsPoints": 5,
+      "middlesPoints": 3,
+      "seniorsPoints": 0,
+      "to": "2022-06-06",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 6 }]
+    },
+    {
+      "from": "2022-06-07",
+      "juniorsPoints": 8,
+      "middlesPoints": 1,
+      "seniorsPoints": 9,
+      "to": "2022-06-07",
+      "usersPointsDots": [{ "userName": "full name", "userPoints": 0 }]
+    }
+  ]
+}

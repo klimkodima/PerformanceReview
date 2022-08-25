@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Seniority bonuses container tests Seniority bonuses snapshot 1`] = `
+<div
+  className="settings-table seniority-bonuses"
+>
+  <div
+    className="settings-table__wrapper"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        className="MuiTable-root css-rqglhn-MuiTable-root"
+        role={null}
+      >
+        <thead
+          className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Experience (months)
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Bonus
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              12
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              10
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              15
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              25
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              25
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              30
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              30
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              35
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="settings-table__btns-block"
+    >
+      <button
+        className="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root btns-block__edit-btn css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="EditIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+        Edit Table
+      </button>
+    </div>
+  </div>
+</div>
+`;

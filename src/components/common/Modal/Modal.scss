@@ -1,0 +1,32 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+
+  .modal-body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #d5d5d5;
+    z-index: 100;
+  }
+
+  &__buttons {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      min-width: 190px;
+      margin: 0 15px;
+    }
+  }
+}

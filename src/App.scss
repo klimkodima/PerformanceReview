@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body.scroll {
+  overflow-y: hidden;
+}
+
+.app {
+  height: 100vh;
+  .hidden {
+    display: none;
+  }
+  .level-title {
+    color: #787878;
+    padding: 20px 30px;
+  }
+}
+
+.dashboard {
+  min-height: 100vh;
+  max-width: 100vw;
+  padding-top: 60px;
+  display: flex;
+
+  .sidebar-wrapper {
+    background-color: #f6f6f6;
+    border: 2px solid #e3e3e3;
+    min-height: 100%;
+    width: 250px;
+    flex-shrink: 0;
+  }
+}
+
+.widgets-wrapper {
+  padding: 30px;
+  margin-bottom: 15px;
+  border: 2px solid #e3e3e3;
+  background-color: #f6f6f6;
+  h2 {
+    color: #787878;
+  }
+}
+
+.widgets {
+  min-width: 0;
+  flex-basis: 100%;
+  padding: 20px 20px 40px;
+  .MuiPaper-root {
+    all: unset;
+  }
+}
+
+.criteria-widgets-container,
+.average-accuracy-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.settings-container {
+  padding: 20px;
+  min-width: calc(100% - 250px);
+  h2 {
+    color: #787878;
+    padding-bottom: 20px;
+  }
+}
+
+.print-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(180, 180, 180, 0.95);
+
+  /* &__spinner {
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    opacity: 0.45;
+  } */
+}
+
+@keyframes ldio-hawsfughdlh {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.ldio-hawsfughdlh div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 10px solid #6c6c6c;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+
+.ldio-hawsfughdlh div {
+  animation: ldio-hawsfughdlh 1s linear infinite;
+  top: 100px;
+  left: 100px;
+  opacity: 0.45;
+}
+
+.loadingio-spinner-rolling-k8xeawwt5qg {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-hawsfughdlh {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.ldio-hawsfughdlh div {
+  box-sizing: content-box;
+}
+
+.tooltip-text {
+  position: absolute;
+  right: 75px;
+  bottom: 5px;
+  display: inline-block;
+  width: 150px;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.login-wrapper {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,1082 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditCoefficientsModal container renders correctly 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body coefficients-modal"
+  >
+    <form
+      class="coefficients-modal-form"
+    >
+      <h2
+        class="coefficients-modal__title"
+      >
+        Edit Coefficient
+      </h2>
+      <div
+        class="coefficients-modal__content"
+      >
+        <h3>
+          Task Type: 
+          <span
+            class="coefficients-modal__red"
+          >
+            Phone
+          </span>
+        </h3>
+        <h3>
+          Audit Type: 
+          <span
+            class="coefficients-modal__red"
+          >
+            Initial
+          </span>
+        </h3>
+        <div
+          class="coefficients-modal__coefficient"
+        >
+          <h3>
+            Coefficient: 
+          </h3>
+          <input
+            class="coefficient-input "
+            data-testid="coefficient-input"
+            min="0"
+            name="coefficient"
+            required=""
+            step="any"
+            type="number"
+            value="1"
+          />
+        </div>
+        <div
+          class="coefficients-modal-website-groups"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded custom-accordion css-1wc0u5o-MuiPaper-root-MuiAccordion-root"
+            data-testid="custom-accordion"
+          >
+            <div
+              class="custom-accordion__form"
+            >
+              <div
+                aria-expanded="true"
+                class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded custom-accordion-summary css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiAccordionSummary-content Mui-expanded css-1betqn-MuiAccordionSummary-content"
+                >
+                  <span
+                    class="coefficients-modal-website-groups__label"
+                  >
+                    Website groups
+                  </span>
+                </div>
+                <div
+                  class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow-icon css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m10 17 5-5-5-5v10z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+              style="min-height: 0px;"
+            >
+              <div
+                class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+              >
+                <div
+                  class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                >
+                  <div
+                    class="MuiAccordion-region"
+                    role="region"
+                  >
+                    <div
+                      class="MuiAccordionDetails-root custom-accordion__details css-15v22id-MuiAccordionDetails-root"
+                    >
+                      <div
+                        class="coefficients-modal__groups"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="coefficients-modal__buttons"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          data-testid="cancel-edit-modal-button"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`EditCoefficientsModal renders correctly 1`] = `
+<form
+  className="coefficients-modal-form"
+  onSubmit={[Function]}
+>
+  <h2
+    className="coefficients-modal__title"
+  >
+    Edit Coefficient
+  </h2>
+  <div
+    className="coefficients-modal__content"
+  >
+    <h3>
+      Task Type: 
+      <span
+        className="coefficients-modal__red"
+      >
+        Phone
+      </span>
+    </h3>
+    <h3>
+      Audit Type: 
+      <span
+        className="coefficients-modal__red"
+      >
+        Initial
+      </span>
+    </h3>
+    <div
+      className="coefficients-modal__coefficient"
+    >
+      <h3>
+        Coefficient: 
+      </h3>
+      <input
+        className="coefficient-input "
+        data-testid="coefficient-input"
+        min={0}
+        name="coefficient"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+        step="any"
+        type="number"
+        value={1}
+      />
+    </div>
+    <div
+      className="coefficients-modal-website-groups"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded custom-accordion css-1wc0u5o-MuiPaper-root-MuiAccordion-root"
+        data-testid="custom-accordion"
+      >
+        <div
+          className="custom-accordion__form"
+        >
+          <div
+            aria-expanded={true}
+            className="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded custom-accordion-summary css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="MuiAccordionSummary-content Mui-expanded css-1betqn-MuiAccordionSummary-content"
+            >
+              <span
+                className="coefficients-modal-website-groups__label"
+              >
+                Website groups
+              </span>
+            </div>
+            <div
+              className="MuiAccordionSummary-expandIconWrapper Mui-expanded css-yw020d-MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow-icon css-i4bv87-MuiSvgIcon-root"
+                data-testid="ArrowRightIcon"
+                focusable="false"
+                onClick={[Function]}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m10 17 5-5-5-5v10z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                className="MuiAccordion-region"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root custom-accordion__details css-15v22id-MuiAccordionDetails-root"
+                >
+                  <div
+                    className="coefficients-modal__groups"
+                  >
+                    <div
+                      className="group-list"
+                    >
+                      <div
+                        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded custom-accordion css-1wc0u5o-MuiPaper-root-MuiAccordion-root"
+                        data-testid="custom-accordion"
+                      >
+                        <div
+                          className="custom-accordion__form"
+                        >
+                          <div
+                            aria-expanded={true}
+                            className="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded custom-accordion-summary css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onContextMenu={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="button"
+                            tabIndex={0}
+                          >
+                            <div
+                              className="MuiAccordionSummary-content Mui-expanded css-1betqn-MuiAccordionSummary-content"
+                            >
+                              <label
+                                className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+                              >
+                                <span
+                                  className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox"
+                                  onBlur={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <input
+                                    checked={true}
+                                    className="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxOutlineBlankIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                    />
+                                  </svg>
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium custom-checkbox__check-icon css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                                    />
+                                  </svg>
+                                  <span
+                                    className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                <span
+                                  className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                >
+                                  <span
+                                    className="group-list-label"
+                                    data-testid="group-list-label"
+                                  >
+                                    Data Aggregators
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                            <div
+                              className="MuiAccordionSummary-expandIconWrapper Mui-expanded css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow-icon css-i4bv87-MuiSvgIcon-root"
+                                data-testid="ArrowRightIcon"
+                                focusable="false"
+                                onClick={[Function]}
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="m10 17 5-5-5-5v10z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+                          style={
+                            Object {
+                              "minHeight": "0px",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                          >
+                            <div
+                              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                            >
+                              <div
+                                className="MuiAccordion-region"
+                                role="region"
+                              >
+                                <div
+                                  className="MuiAccordionDetails-root custom-accordion__details css-15v22id-MuiAccordionDetails-root"
+                                >
+                                  <div
+                                    className="group-list__sites MuiBox-root css-0"
+                                  >
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={false}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          Data Axle
+                                          <svg
+                                            aria-hidden={true}
+                                            aria-label="Website with Individual coefficients"
+                                            aria-labelledby={null}
+                                            className="MuiSvgIcon-root MuiSvgIcon-colorError MuiSvgIcon-fontSizeMedium css-1wxstni-MuiSvgIcon-root"
+                                            data-mui-internal-clone-element={true}
+                                            data-testid="PriorityHighIcon"
+                                            focusable="false"
+                                            onBlur={[Function]}
+                                            onFocus={[Function]}
+                                            onMouseLeave={[Function]}
+                                            onMouseOver={[Function]}
+                                            onTouchEnd={[Function]}
+                                            onTouchStart={[Function]}
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <circle
+                                              cx="12"
+                                              cy="19"
+                                              r="2"
+                                            />
+                                            <path
+                                              d="M10 3h4v12h-4z"
+                                            />
+                                          </svg>
+                                        </span>
+                                      </span>
+                                    </label>
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={true}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium custom-checkbox__check-icon css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          CitySeeker.com
+                                        </span>
+                                      </span>
+                                    </label>
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={true}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium custom-checkbox__check-icon css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          foursquare.com
+                                        </span>
+                                      </span>
+                                    </label>
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={true}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium custom-checkbox__check-icon css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          neustarlocaleze.biz
+                                        </span>
+                                      </span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="group-list"
+                    >
+                      <div
+                        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded custom-accordion css-1wc0u5o-MuiPaper-root-MuiAccordion-root"
+                        data-testid="custom-accordion"
+                      >
+                        <div
+                          className="custom-accordion__form"
+                        >
+                          <div
+                            aria-expanded={false}
+                            className="MuiButtonBase-root MuiAccordionSummary-root custom-accordion-summary css-1pvvkxv-MuiButtonBase-root-MuiAccordionSummary-root"
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onContextMenu={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="button"
+                            tabIndex={0}
+                          >
+                            <div
+                              className="MuiAccordionSummary-content css-1betqn-MuiAccordionSummary-content"
+                            >
+                              <label
+                                className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+                              >
+                                <span
+                                  className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox"
+                                  onBlur={[Function]}
+                                  onContextMenu={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <input
+                                    checked={false}
+                                    className="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxOutlineBlankIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                    />
+                                  </svg>
+                                  <span
+                                    className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                <span
+                                  className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                >
+                                  <span
+                                    className="group-list-label"
+                                    data-testid="group-list-label"
+                                  >
+                                    Reviews
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                            <div
+                              className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium arrow-icon css-i4bv87-MuiSvgIcon-root"
+                                data-testid="ArrowRightIcon"
+                                focusable="false"
+                                onClick={[Function]}
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="m10 17 5-5-5-5v10z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                          style={
+                            Object {
+                              "minHeight": "0px",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                          >
+                            <div
+                              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                            >
+                              <div
+                                className="MuiAccordion-region"
+                                role="region"
+                              >
+                                <div
+                                  className="MuiAccordionDetails-root custom-accordion__details css-15v22id-MuiAccordionDetails-root"
+                                >
+                                  <div
+                                    className="group-list__sites MuiBox-root css-0"
+                                  >
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={false}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          yelp.com
+                                          <svg
+                                            aria-hidden={true}
+                                            aria-label="Website with Individual coefficients"
+                                            aria-labelledby={null}
+                                            className="MuiSvgIcon-root MuiSvgIcon-colorError MuiSvgIcon-fontSizeMedium css-1wxstni-MuiSvgIcon-root"
+                                            data-mui-internal-clone-element={true}
+                                            data-testid="PriorityHighIcon"
+                                            focusable="false"
+                                            onBlur={[Function]}
+                                            onFocus={[Function]}
+                                            onMouseLeave={[Function]}
+                                            onMouseOver={[Function]}
+                                            onTouchEnd={[Function]}
+                                            onTouchStart={[Function]}
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <circle
+                                              cx="12"
+                                              cy="19"
+                                              r="2"
+                                            />
+                                            <path
+                                              d="M10 3h4v12h-4z"
+                                            />
+                                          </svg>
+                                        </span>
+                                      </span>
+                                    </label>
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={false}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          tripexpert.com
+                                        </span>
+                                      </span>
+                                    </label>
+                                    <label
+                                      className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+                                    >
+                                      <span
+                                        className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                        data-testid="custom-checkbox"
+                                        onBlur={[Function]}
+                                        onContextMenu={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <input
+                                          checked={false}
+                                          className="PrivateSwitchBase-input css-1m9pwf3"
+                                          data-indeterminate={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                                        />
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                          data-testid="CheckBoxOutlineBlankIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                          />
+                                        </svg>
+                                        <span
+                                          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                        />
+                                      </span>
+                                      <span
+                                        className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                                      >
+                                        <span
+                                          className="group-list-item-label"
+                                          data-testid="group-list-item-label"
+                                        >
+                                          oyster.com
+                                        </span>
+                                      </span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="coefficients-modal__buttons"
+  >
+    <button
+      className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="submit"
+    >
+      Save
+      <span
+        className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+      data-testid="cancel-edit-modal-button"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      Cancel
+      <span
+        className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</form>
+`;

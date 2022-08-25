@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateFilterComponent Matches snapshot 1`] = `
+<div
+  className="rmdp-container "
+  style={
+    Object {
+      "display": "inline-block",
+      "height": "max-content",
+    }
+  }
+>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <input
+        autoComplete="off"
+        className="rmdp-input"
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+        value={
+          Array [
+            "",
+          ]
+        }
+      />
+      <svg
+        className="icon icon-tabler icon-tabler-calendar-event"
+        fill="none"
+        height={20}
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        style={
+          Object {
+            "backgroundColor": "inherit",
+            "cursor": "pointer",
+            "position": "absolute",
+            "right": "2.5px",
+            "top": "50%",
+            "transform": "translateY(-50%)",
+          }
+        }
+        viewBox="0 0 24 24"
+        width={20}
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+          stroke="none"
+        />
+        <rect
+          height={16}
+          rx={2}
+          width={16}
+          x={4}
+          y={5}
+        />
+        <line
+          x1={16}
+          x2={16}
+          y1={3}
+          y2={7}
+        />
+        <line
+          x1={8}
+          x2={8}
+          y1={3}
+          y2={7}
+        />
+        <line
+          x1={4}
+          x2={20}
+          y1={11}
+          y2={11}
+        />
+        <rect
+          height={2}
+          width={2}
+          x={8}
+          y={15}
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "left": "0",
+        "position": "absolute",
+        "top": "0",
+        "visibility": "hidden",
+        "willChange": "transform",
+        "zIndex": 100,
+      }
+    }
+  >
+    <div />
+  </div>
+</div>
+`;

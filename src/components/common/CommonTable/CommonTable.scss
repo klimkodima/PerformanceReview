@@ -1,0 +1,103 @@
+.comparison-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  .comparison-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+
+    .comparison-table-placeholder {
+      display: flex;
+      align-items: center;
+      align-self: center;
+      height: 60px;
+
+      p {
+        margin-bottom: 20px;
+        color: #787878;
+        font-size: 18px;
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+      }
+    }
+  }
+
+  .comparison-table-header {
+    align-self: flex-start;
+    padding: 24px 34px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #787878;
+  }
+
+  .comparison-table-head-cell {
+    font-size: 14px;
+    font-weight: bold;
+    color: #787878;
+    border-right: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    background-color: #f6f6f6;
+    padding-left: 30px;
+    &:last-of-type {
+      border-right: none;
+    }
+  }
+
+  .comparison-table-cell {
+    font-size: 16px;
+    font-weight: bold;
+    color: #787878;
+    border-right: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    &:last-of-type {
+      border-right: none;
+    }
+  }
+
+  .min-value-color {
+    color: #f54973;
+  }
+
+  .max-value-color {
+    color: #4ac867;
+  }
+
+  .comparison-table-lead-bonus {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 22px 34px;
+    column-gap: 26px;
+    color: #787878;
+    font-weight: bold;
+
+    div {
+      display: inline-block;
+      border: 2px solid #d9d9d9;
+      border-radius: 12px;
+      color: #f54973;
+      text-align: center;
+      padding: 6px 26px;
+    }
+  }
+
+  .comparison-table-lead-team {
+    background-color: #f5dcd2;
+  }
+  .comparison-table {
+    max-height: 625px;
+  }
+}
+.seniority-bonuses-input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 15px;
+}

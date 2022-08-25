@@ -1,0 +1,68 @@
+.add-new-user {
+  min-width: 700px;
+  margin-bottom: 20px;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c6c6c;
+
+    h5 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    info-icon {
+      position: absolute;
+      top: 0;
+      right: -30px;
+    }
+
+    .add-new-user-select {
+      width: 300px;
+
+      select {
+        padding: 5px 5px;
+        font-size: 18px;
+        color: #787878;
+        font-weight: 400;
+      }
+    }
+
+    .placeholder > select {
+      opacity: 0.5;
+      font-size: 18px;
+    }
+  }
+
+  label {
+    margin-right: 40px;
+    width: 100px;
+  }
+
+  .add-new-user-input {
+    input {
+      min-width: 400px;
+      padding: 5px 10px;
+    }
+  }
+
+  .preset-working-hours-checkbox {
+    margin-left: 40px;
+  }
+
+  #preset-working-hours-label {
+    margin: 0;
+  }
+
+  .add-new-user-wrapper {
+    width: 800px;
+  }
+}

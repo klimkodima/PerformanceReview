@@ -1,0 +1,60 @@
+.custom-accordion {
+  all: unset;
+
+  &__title {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 2px;
+    color: #777777;
+    padding-bottom: 30px;
+  }
+
+  &__form {
+    display: flex;
+    margin: 12px 0 0 0;
+
+    .custom-accordion-summary {
+      padding: 0;
+      min-height: 16px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      .MuiAccordionSummary-content {
+        margin: 0;
+      }
+
+      .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+        transform: rotate(90deg);
+      }
+
+      .MuiFormControlLabel-root {
+        margin: 0;
+      }
+
+      .arrow-icon {
+        color: #939393;
+        width: 24px;
+        height: 24px;
+      }
+
+      .title-icon {
+        width: 40px;
+        height: 40px;
+        color: #939393;
+      }
+    }
+  }
+
+  &__details {
+    padding: 0;
+
+    .MuiBox-root {
+      margin-left: 50px;
+    }
+
+    &.MuiAccordionDetails-root {
+      padding: 10px 0 0 0;
+    }
+  }
+}

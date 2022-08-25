@@ -1,0 +1,103 @@
+.coefficients-modal {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 650px;
+  width: 580px;
+  height: 95vh;
+
+  .coefficients-modal-form {
+    max-height: 590px;
+    height: 95vh;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    padding: 0;
+    color: #777777;
+    font-size: 22px;
+    text-decoration: underline;
+  }
+
+  &__content {
+    flex: 1 auto;
+    overflow: auto;
+    min-height: 450px;
+    margin: 20px 20px 10px 0;
+
+    h3 {
+      margin-top: 10px;
+      color: #777777;
+      font-weight: 500;
+    }
+  }
+
+  &__red {
+    color: #f5416c;
+  }
+
+  &__coefficient {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+    h3 {
+      margin: 0;
+    }
+
+    .coefficient-input {
+      outline: none;
+      text-align: center;
+      margin: 0 0 0 10px;
+      padding: 0;
+      height: 30px;
+      width: 60px;
+      font-weight: 600;
+      font-size: 16px;
+      border: 2px solid #dadada;
+      border-radius: 12px;
+      color: #f5416c;
+
+      -moz-appearance: textfield;
+
+      &::-webkit-inner-spin-button {
+        display: none;
+      }
+
+      &.error {
+        border: 2px solid #f5416c;
+      }
+    }
+  }
+
+  .coefficients-modal-website-groups {
+    margin-top: 35px;
+
+    &__label {
+      color: #777777;
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__buttons {
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    .button {
+      text-transform: none;
+      width: 140px;
+      height: 45px;
+      font-weight: 600;
+      font-size: 22px;
+      border: 2px solid #dadada;
+      border-radius: 10px;
+      background-color: #f6f6f6;
+      color: #f5416c;
+    }
+  }
+}

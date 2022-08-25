@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component Matches snapshot 1`] = `
+<div
+  className="widget-point"
+  data-testid="widget-point"
+  id="widget-point"
+>
+  <div
+    className="widget-point__item item"
+  >
+    <div
+      className="item__title-block"
+    >
+      <h4
+        className="item__header"
+      >
+        Total Points
+      </h4>
+      <svg
+        aria-hidden={true}
+        aria-label="Total Points = (Average Performance * Average validity) * (Support/Audits Hours * Confirmation rate of the Hours Correspondence value)"
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium item__icon css-ci5apu-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="InfoIcon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+        />
+      </svg>
+    </div>
+    <div
+      className="item__point-block point-block"
+    >
+      <p
+        className="point-block__text"
+      >
+        40
+      </p>
+    </div>
+  </div>
+  <div
+    className="widget-point__item item"
+  >
+    <div
+      className="item__title-block"
+    >
+      <h4
+        className="item__header"
+      >
+        Level Position
+      </h4>
+    </div>
+    <div
+      className="item__point-block point-block"
+    >
+      <p
+        className="point-block__text"
+      >
+        2nd
+      </p>
+    </div>
+  </div>
+  <div
+    className="widget-point__item item"
+  >
+    <div
+      className="item__title-block"
+    >
+      <h4
+        className="item__header"
+      >
+        Seniority Premium
+      </h4>
+    </div>
+    <div
+      className="item__point-block point-block"
+    >
+      <p
+        className="point-block__text"
+      >
+        15%
+      </p>
+    </div>
+  </div>
+</div>
+`;

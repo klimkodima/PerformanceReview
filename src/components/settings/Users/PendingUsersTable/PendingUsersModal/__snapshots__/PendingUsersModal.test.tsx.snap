@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PendingUsersModal tests PendingUsersModal snapshot 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body pending-users-modal"
+  >
+    <h2>
+      Specify the users' settings
+    </h2>
+    <p>
+      Please, select a role for each user. Some roles can be preselected based on the user's level - you can change the selection, if necessary. Also, you can mark the user as "Preset working hours" if this user does not fill in the corporate Jira. In this case, the system will use the time set for such users in the special settings table "Preset working hours".
+    </p>
+    <div
+      class="pending-users-modal__table-container"
+    >
+      <table
+        aria-label="table"
+        class="MuiTable-root css-rqglhn-MuiTable-root"
+      >
+        <tbody
+          class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AccountCircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+                />
+              </svg>
+              Pety Petrov
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              p.petrov@gpsolutions.com
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              -
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              -
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium pending-users-modal__icon-block css-1ex1afd-MuiTableCell-root"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+              >
+                <label
+                  class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="false"
+                  id="pending-users-modal-label"
+                >
+                  Select a role
+                </label>
+                <div
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+                  data-testid="pending-users-modal-select"
+                >
+                  <select
+                    aria-invalid="false"
+                    class="MuiNativeSelect-select MuiNativeSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="pending-users-modal-label"
+                    name="role"
+                  >
+                    <option
+                      aria-label="None"
+                      value=""
+                    />
+                    <option
+                      value="MANAGER"
+                    >
+                      Manager
+                    </option>
+                    <option
+                      value="ADMIN"
+                    >
+                      Admin
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+                    data-testid="ArrowDropDownIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-1ftyaf0"
+                    >
+                      <span>
+                        Select a role
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <svg
+                aria-hidden="true"
+                aria-label=" “This user misses team/level. You can select only Manager or Admin roles for such users“"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium criteria-item__icon css-ci5apu-MuiSvgIcon-root"
+                data-mui-internal-clone-element="true"
+                data-testid="criteria-item-info-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                />
+              </svg>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              <span
+                class="MuiCheckbox-root MuiCheckbox-colorSuccess MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorSuccess PrivateSwitchBase-root css-10drtbx-MuiButtonBase-root-MuiCheckbox-root"
+                data-testid="pending-users-modal-checkbox"
+              >
+                <input
+                  aria-label="checkbox"
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  name="thirdParty"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxOutlineBlankIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </span>
+              Preset working hours
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AccountCircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+                />
+              </svg>
+              Egor Egorov
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              e.egorov@gpsolutions.com
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              Team lead
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              X-rays
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium pending-users-modal__icon-block css-1ex1afd-MuiTableCell-root"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+              >
+                <div
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+                  data-testid="pending-users-modal-select"
+                >
+                  <select
+                    aria-invalid="false"
+                    class="MuiNativeSelect-select MuiNativeSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="pending-users-modal-label"
+                    name="role"
+                  >
+                    <option
+                      value="AUDITOR"
+                    >
+                      Auditor
+                    </option>
+                    <option
+                      selected=""
+                      value="TEAM_LEADER"
+                    >
+                      Team leader
+                    </option>
+                    <option
+                      value="MANAGER"
+                    >
+                      Manager
+                    </option>
+                    <option
+                      value="ADMIN"
+                    >
+                      Admin
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+                    data-testid="ArrowDropDownIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-hdw1oc"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+            >
+              <span
+                class="MuiCheckbox-root MuiCheckbox-colorSuccess MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorSuccess PrivateSwitchBase-root css-10drtbx-MuiButtonBase-root-MuiCheckbox-root"
+                data-testid="pending-users-modal-checkbox"
+              >
+                <input
+                  aria-label="checkbox"
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  name="thirdParty"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxOutlineBlankIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </span>
+              Preset working hours
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="modal-overlay__buttons"
+    >
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled  css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </span>
+        Activate Users
+      </button>
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedError MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-180lf2n-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+        Cancel
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

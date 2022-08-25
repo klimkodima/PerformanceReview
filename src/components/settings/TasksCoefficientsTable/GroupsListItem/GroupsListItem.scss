@@ -1,0 +1,19 @@
+.group-list-item.MuiFormControlLabel-root {
+  align-items: flex-start;
+}
+
+.group-list-item {
+  margin-bottom: 5px;
+
+  .MuiTypography-root {
+    max-width: 400px;
+  }
+
+  .group-list-item-label {
+    color: #777777;
+    font-size: 18px;
+    margin-left: 2px;
+    word-wrap: break-word;
+    display: flex;
+  }
+}

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.datefilter-container {
+  display: flex;
+  padding: 20px 31px;
+  align-items: center;
+  justify-content: space-between;
+
+  &__header {
+    font-size: 24px;
+    color: #777777;
+  }
+
+  & .print-icon {
+    margin-right: 30px;
+    padding: 4px;
+
+    svg {
+      height: 45px;
+      width: 45px;
+      color: #7a7a7a;
+    }
+  }
+
+  & .rmdp-input {
+    padding: 20px 10px;
+    padding-left: 30px;
+    color: #777777;
+    font-size: 18px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    transition: all 1s;
+
+    &:hover {
+      background-color: #c4d8f5;
+    }
+
+    &:focus {
+      border-color: #78e2e2;
+    }
+
+    & ~ svg {
+      right: 0 !important;
+      left: 5px !important;
+    }
+  }
+
+  & .buttons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  & .button {
+    outline: none;
+    border: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #0074d9;
+    text-transform: none;
+    transition: all 1s;
+    cursor: pointer;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+/* .buttons-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #0074d9;
+  cursor: pointer;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+} */

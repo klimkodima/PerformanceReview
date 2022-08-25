@@ -1,0 +1,56 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d7d7d7;
+    height: 60px;
+    padding: 0 30px;
+  }
+
+  &__logoIcon {
+    flex-grow: 1;
+
+    img {
+      width: 46px;
+    }
+  }
+
+  .logoutIcon {
+    height: 45px;
+    width: 45px;
+
+    img {
+      width: 35px;
+      opacity: 0.5;
+    }
+  }
+
+  .settings-icon {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+
+    img {
+      width: 32px;
+    }
+  }
+
+  .title-and-logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .dashboard-name {
+    margin-right: 25px;
+    color: #787878;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

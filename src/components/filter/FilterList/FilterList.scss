@@ -1,0 +1,20 @@
+.filter-list {
+  margin-top: 10px;
+
+  &__name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plus-button {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: scale(1.5);
+    margin-right: 15px;
+  }
+
+  .title {
+    color: #818181;
+  }
+}

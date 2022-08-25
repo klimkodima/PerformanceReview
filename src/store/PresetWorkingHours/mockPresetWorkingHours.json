@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "label": {
+      "value": "Audits",
+      "isError": false,
+      "errorText": ""
+    },
+    "time": {
+      "value": "0.25",
+      "isError": false,
+      "errorText": ""
+    }
+  },
+  {
+    "id": "2",
+    "label": {
+      "value": "Support",
+      "isError": false,
+      "errorText": ""
+    },
+    "time": {
+      "value": "0.5",
+      "isError": false,
+      "errorText": ""
+    }
+  }
+]

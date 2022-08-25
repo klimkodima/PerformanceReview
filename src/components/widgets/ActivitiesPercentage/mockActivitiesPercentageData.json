@@ -1,0 +1,20 @@
+{
+  "totalTimeSpend": 20100,
+  "labels": [
+    {
+      "name": "Audits",
+      "totalTimeSpend": 9900,
+      "percentage": 49.25373134328358
+    },
+    {
+      "name": "Support",
+      "totalTimeSpend": 5100,
+      "percentage": 25.37313432835821
+    },
+    {
+      "name": "Others",
+      "totalTimeSpend": 5100,
+      "percentage": 25.37313432835821
+    }
+  ]
+}

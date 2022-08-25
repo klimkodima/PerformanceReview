@@ -1,0 +1,29 @@
+[
+  {
+    "id": 5,
+    "fullName": "Pety Petrov",
+    "username": "Pety Petrov",
+    "email": "p.petrov@gpsolutions.com",
+    "enabled": true,
+    "roleName": "",
+    "pending": true,
+    "jiraAccountId": "12866hg",
+    "worksFrom": "08-31-2015",
+    "thirdParty": false
+  },
+  {
+    "id": 6,
+    "fullName": "Egor Egorov",
+    "username": "Egor Egorov",
+    "email": "e.egorov@gpsolutions.com",
+    "enabled": false,
+    "roleName": "",
+    "teamId": 1,
+    "teamName": "X-Rays",
+    "level": "TEAM_LEAD",
+    "pending": true,
+    "jiraAccountId": "12866hg",
+    "worksFrom": "08-31-2015",
+    "thirdParty": false
+  }
+]

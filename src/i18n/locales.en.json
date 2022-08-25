@@ -1,0 +1,366 @@
+{
+  "date_filter": {
+    "format_date": "DD/MM/YYYY",
+    "last_30_days": "last 30 days",
+    "last_90_days": "last 90 days",
+    "last_365_days": "last 365 days"
+  },
+
+  "main": {
+    "auditors_level": "Auditor's Level",
+    "team_leads_level": "Team Lead's Level",
+    "managers_level": "Manager's Level"
+  },
+
+  "filter": {
+    "filters_title_text": "FILTERS",
+    "clear_button_text": "CLEAR",
+    "team": "TEAM",
+    "level": "LEVEL",
+    "auditor": "AUDITOR"
+  },
+
+  "access_level": {
+    "audit": "audit",
+    "manager": "manager",
+    "admin": "admin"
+  },
+
+  "header": {
+    "dashboard_name_text": "PERFORMANCE REVIEW"
+  },
+
+  "settings": {
+    "tasks_title": "Tasks' Coefficients",
+    "hours_title": "Hours' Correspondence",
+    "preset_working_hours_title": "Preset Working Hours",
+    "users_title": "Users",
+    "seniority_bonuses_title": "Seniority Bonuses",
+    "text_placeholder": "here will be a component",
+    "website_group": "Website Group",
+    "website": "Website",
+    "audit_type": "Audit Type"
+  },
+
+  "tasks_coefficients": {
+    "group_coefficients_title": "Group Coefficients",
+    "initial_audit_type": "Initial",
+    "reaudit_audit_type": "Reaudit",
+    "save_button_text": "Save",
+    "cancel_button_text": "Cancel",
+    "task_type_text": "Task Type: ",
+    "audit_type_text": "Audit Type: ",
+    "coefficient_text": "Coefficient: ",
+    "website_groups_text": "Website groups",
+    "edit_coefficient_modal_title_text": "Edit Coefficient",
+    "individual_mark_tooltip_text": "Website with Individual coefficients"
+  },
+
+  "activities_percentage": {
+    "total_time_text": "Total time",
+    "widget_title_text": "Activities Percentage"
+  },
+
+  "content_auditor": {
+    "section_header": "Content Auditor",
+    "name": "Name",
+    "team": "Team",
+    "current_level": "Current Level",
+    "team_lead": "Team Lead",
+    "experience": "Experience in PV",
+    "default_alt_text": "user icon",
+    "photo": "photo",
+    "full_name": "fullName",
+    "level": "level",
+    "team_lead_name": "teamLeadName",
+    "experience_in_month": "experienceInMonths",
+    "team_name": "teamName",
+    "month": "month",
+    "year": "year"
+  },
+
+  "criteria_widgets": {
+    "averagePerformance": "Average Performance",
+    "supportAndAuditsTime": "Support/Audits Hours",
+    "averageValidity": "Average Validity",
+    "hoursCorrespondence": "Hours Correspondence",
+    "info_text_averagePerformance": "Average number of task units performed for 1 audit hour. Task unit = 1 completed task multiplied by a special coefficient that considers the task complexity, number of task solutions, and the website/website group for which the task was performed.",
+    "info_text_supportAndAuditsTime": "Sum of hours spent for the audits and support tasks.",
+    "info_text_averageValidity": "Percent of correctly performed tasks",
+    "info_text_hoursCorrespondence": "Ratio of the hours spent for audits in Jira and time spent for audits in the system",
+    "task_h": " unit/h",
+    "tasks_h": " units/h"
+  },
+
+  "points_widget": {
+    "totalPoints": "Total Points",
+    "levelPosition": "Level Position",
+    "seniorityBonus": "Seniority Premium",
+    "totalPoints_info_text": "Total Points = (Average Performance * Average validity) * (Support/Audits Hours * Confirmation rate of the Hours Correspondence value)"
+  },
+
+  "performance_statistics": {
+    "day": "day",
+    "week": "week",
+    "month": "month",
+    "year": "year",
+    "average_senior_auditor": "Average Senior Auditor",
+    "average_middle_auditor": "Average Middle Auditor",
+    "average_junior_auditor": "Average Junior Auditor",
+    "average": "Average",
+    "section_header": "Performance Statistics",
+    "sub_section_header": "Average levels",
+    "on": "On",
+    "off": "Off"
+  },
+
+  "team_activities_percentage": {
+    "title_text": "Team Activities Percentage",
+    "placeholder_text": "Widget is empty. Select the teams in the filter, to see their statistics"
+  },
+
+  "accuracy_by_property": {
+    "title": "Accuracy by Property",
+    "search_placeholder": "Enter property",
+    "property_label": "Property",
+    "score_label": "Accuracy score"
+  },
+
+  "average_accuracy": {
+    "title": "Average Accuracy of Team Properties"
+  },
+
+  "pdf_creator": {
+    "document_title": "PerformanceReview Dashboard report.pdf",
+    "title_report": "Performance Review report for",
+    "period": "for the period",
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December",
+    "error_message": "creating component image error",
+    "pdf_fill_background": "#ffffff",
+    "common_text_color": "#b3b3b3",
+    "bold_text_color": "#787878"
+  },
+
+  "login": {
+    "login_title_text": "Sign In",
+    "login_button_text": "SIGN IN"
+  },
+
+  "common_table": {
+    "ascending_sort": "asc",
+    "descending_sort": "desc",
+    "team_lead_bonus": "Team Lead Bonus",
+    "name_column": "name",
+    "points_column": "points",
+    "performance_column": "performance",
+    "validity_column": "validity",
+    "support_column": "support",
+    "correspondence_column": "correspondence",
+    "task": " task/h",
+    "tasks": " tasks/h",
+    "percent": "%",
+    "dash": "-",
+    "hours": "h"
+  },
+
+  "team_comparison": {
+    "header_name": "Team Comparison",
+    "team_label": "TEAM",
+    "points_label": "AVERAGE POINTS",
+    "performance_label": "AVERAGE PERFORMANCE",
+    "validity_label": "AVERAGE VALIDITY",
+    "correspondence_label": "AVERAGE HOURS CORRESPONDENCE",
+    "placeholder_text": "Widget is empty. Select the teams in the filter, to see their statistics"
+  },
+
+  "auditors_statistics": {
+    "header_name": "Auditors Statistics",
+    "auditor_label": "AUDITOR",
+    "points_label": "TOTAL POINTS",
+    "performance_label": "AVERAGE PERFORMANCE",
+    "validity_label": "AVERAGE VALIDITY",
+    "support_label": "SUPPORT/AUDITS HOURS",
+    "correspondence_label": "HOURS CORRESPONDENCE"
+  },
+
+  "hours_correspondence": {
+    "status": "Status",
+    "icon": "Icon",
+    "gap": "Gap",
+    "confirmation_rate": "Confirmation Rate",
+    "tooltip_text": "Tooltip Text",
+    "empty_value_error": "Field shouldn`t be empty.",
+    "unique_status_error": "The Status should be unique.",
+    "confirmation_rate_error": "The Confirmation Rate should be number from 1 to 100",
+    "gap_min_value_error": "min Gap should be equal 1",
+    "gap_max_value_error": "max Gap should be equal 100",
+    "gap_cover_error": "The gaps should cover the full interval from 1% to 100%. Please add or edit the gaps.",
+    "gap_pattern_error": "The Gap should be in the range of numbers from 1 to 100, example 1-100",
+    "gap_min_max_value_error": "Second value shouldn`t be higher or equal to the first value."
+  },
+
+  "seniority_bonuses": {
+    "header_cell_experience": "Experience (months)",
+    "header_cell_bonus": "Bonus",
+    "experience": "experience",
+    "bonus": "bonus",
+    "wrong_pattern": "The value should be integer",
+    "empty_field": "Field cannot be empty",
+    "interval_error": "The value cannot be lower or equal to the previous value",
+    "info_tooltip_text": "The interval will be closed with the nearest starting value of another interval. If its starting value is the highest of all the intervals (or it is the only interval), this interval will be considered endless."
+  },
+
+  "preset_working_hours_table": {
+    "header_cell_label": "Label",
+    "header_cell_hours": "Hours",
+    "empty_value_error": "Field cannot be empty.",
+    "unique_label_error": "The Label should be unique.",
+    "hours_pattern_error": "Wrong pattern, enter integer or the fractional number, example: 0.00 or 0.0",
+    "hours_value_error": "The value must be a multiple of 25",
+    "modal_save_button_text": "Yes",
+    "modal_cancel_button_text": "Cancel",
+    "modal_notification_exceeds": "The total duration exceeds 8 hours. Are you sure you want to save the table?",
+    "modal_notification_less": "The total duration is less than 8 hours. Are you sure you want to save the table?",
+    "modal_notification_empty_table": "The table cannot be empty!",
+    "option_value_1": "Audits",
+    "option_value_2": "Support",
+    "option_value_3": "Meetings"
+  },
+
+  "users_table": {
+    "user_name_label": "User Name",
+    "email_label": "Email",
+    "status_label": "Status",
+    "role_label": "Role",
+    "level_label": "Level",
+    "team_label": "Team",
+    "table_pending_title": "Pending users"
+  },
+
+  "pending_users_table": {
+    "data_storage_label": "Data storage",
+    "title": "Specify the users' settings",
+    "subtitle": "Please, select a role for each user. Some roles can be preselected based on the user's level - you can change the selection, if necessary. Also, you can mark the user as \"Preset working hours\" if this user does not fill in the corporate Jira. In this case, the system will use the time set for such users in the special settings table \"Preset working hours\".",
+    "activate_button": "Activate Users",
+    "stop_saving_data_button": "Stop saving data for Users",
+    "cancel_button": "Cancel",
+    "modal_preset_title": "Preset working hours",
+    "modal_info_tooltip_text": " “This user misses team/level. You can select only Manager or Admin roles for such users“",
+    "option_role_1": "Auditor",
+    "option_role_2": "Team leader",
+    "option_role_3": "Manager",
+    "option_role_4": "Admin",
+    "select_label": "Select a role"
+  },
+
+  "pending_users_stop_saving_modal": {
+    "save_button": "Yes",
+    "notification_title": "Are you sure you want to stop saving data for these users:",
+    "notification_not_save_title": "The data storage for the users:",
+    "notification_not_save_subtitle": " is not performed."
+  },
+
+  "search": {
+    "placeholder": "Enter User Name"
+  },
+
+  "users_info_modal": {
+    "title": "User info",
+    "user_name_label": "User Name:",
+    "status_label": "Status:",
+    "active_text": "Active",
+    "inactive_text": "Inactive",
+    "email_label": "Email (login):",
+    "password_label": "Password:",
+    "password_btn_text": "Reset Password",
+    "user_photo_label": "User Photo:",
+    "user_photo_btn_text": "Upload photo",
+    "jira_account_label": "JiraAccountID:",
+    "preset_working_hours_text": "Preset working hours",
+    "role_label": "Role:",
+    "level_label": "Level:",
+    "team_label": "Team:",
+    "works_from_label": "Works from:",
+    "table_pending_title": "Pending users",
+    "save_button": "Save",
+    "cancel_button": "Cancel",
+    "agree_button": "Yes",
+    "option_role_auditor": "Auditor",
+    "option_role_team_leader": "Team leader",
+    "option_role_manager": "Manager",
+    "option_role_admin": "Admin",
+    "notification_reset_password_button": "A new password was sent to user. You cannot reset password more that once in the current window.",
+    "notification_update_avatar_button": "You cannot request a new photo more than once in the current window.",
+    "empty_user_name_error": "The User Name cannot be empty",
+    "modal_info_title_reset_password": "Are you sure you want to reset the password for the user ",
+    "modal_info_subtitle_reset_password": "? A new password will be generated and sent to the user.",
+    "modal_info_title_update_photo": "Are you sure you want to update the photo for the user ",
+    "modal_info_subtitle_update_photo": "? A new photo will be requested from Jira.",
+    "request_title": "*A request for a new photo was sent to Jira"
+  },
+
+  "add_new_user_modal": {
+    "username_label": "User Name:",
+    "username_placeholder": "Enter user name",
+    "username_empty_error": "roleName can't be empty",
+    "username_length_error": "length of username must be between 5 and 50",
+    "username_response_error": "Username is occupied. Please change it.",
+    "email_label": "Email (login):",
+    "email_placeholder": "Enter user login",
+    "email_error": "Invalid email address",
+    "email_response_error": "User with this email already exists.",
+    "password_label": "Password:",
+    "password_placeholder": "Enter user password",
+    "password_empty_error": "password can't be empty",
+    "password_length_error": "length of password must be between 8 and 40",
+    "password_info": "Length of password must be between 8 and 40.",
+    "roleName_empty_error": "roleName can't be empty",
+    "teamName_empty_error": "teamName can't be empty",
+    "level_empty_error": "level can't be empty",
+    "cancel_button": "Cancel",
+    "save_button": "Add User",
+    "title": "New User",
+    "preset_working_hours_label": "Preset working hours schedule",
+    "preset_working_hours_info": "Set when the auditor/team lead uses the third-party time-management system instead of a corporate Jira project",
+    "role_label": "Role:",
+    "role_select_placeholder": "Select user's role",
+    "team_label": "Team:",
+    "team_select_placeholder": "Select the team",
+    "team_error_tooltip_first_part": "The team ",
+    "team_error_tooltip_second_part": " already has a Team Lead. Please, select a different team or update the team settings in the PropertyView system.",
+    "level_label": "Level:",
+    "level_select_placeholder": "Select user's level"
+  },
+  "timing": {
+    "timing_title_text": "Enter works hours:",
+    "audits_label": "Audits",
+    "meetings_label": "Meetings",
+    "support_label": "Support",
+    "others_label": "Оthers",
+    "timing_submit_button_text": "Submit",
+    "timing_cancel_button_text": "Cancel",
+    "timing_select_label_text": "Activity",
+    "timing_select_helper_text": "Please select activity",
+    "timing_time_label_text": "Spended time",
+    "timing_time_helper_text": "Please select spended time (0-8)",
+    "time_min_error": "Time should be of minimum 0",
+    "time_max_error": "Time should be of maximum 8",
+    "time_required_error": "Time is required",
+    "timing_comment_label_text": "Comment",
+    "timing_comment_helper_text": "Please enter comment",
+    "timing_date_label_text": "Date",
+    "timing_date_helper_text": "Please choose date"
+
+  }
+}

@@ -1,0 +1,1121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfoModal test UserInfoModal for manager renders correctly 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium user-info__exit-btn css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+      data-testid="CloseIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+    <span
+      className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>,
+  <div
+    className="user-info__title"
+  >
+    <h5>
+      User info
+    </h5>
+  </div>,
+  <div
+    className="user-info-wrapper"
+  >
+    <div
+      className="user-info__column"
+    >
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          User Name:
+        </span>
+         
+        <p>
+          full name6
+        </p>
+      </div>
+      <div
+        className="user-info-item user-info-wrapper__status"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Status:
+        </span>
+         
+        <div
+          className="switch-wrapper-external"
+        >
+          <p
+            className=""
+          >
+            Active
+          </p>
+          <label
+            className="disabled-switch"
+            data-testid="switch-label-test"
+          >
+            <input
+              checked={false}
+              disabled={true}
+              name="switch"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="switch"
+            />
+          </label>
+          <p
+            className="disabled"
+          >
+            Inactive
+          </p>
+        </div>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Email (login):
+        </span>
+         
+        <p>
+          6email@email
+        </p>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Password:
+        </span>
+         
+        <div
+          aria-label="A new password was sent to user. You cannot reset password more that once in the current window."
+          aria-labelledby={null}
+          className=""
+          data-mui-internal-clone-element={true}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+        >
+          <button
+            className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            disabled={true}
+            name="reset-password"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            Reset Password
+          </button>
+        </div>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          User Photo:
+        </span>
+         
+        <div
+          aria-label=""
+          aria-labelledby={null}
+          className=""
+          data-mui-internal-clone-element={true}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+        >
+          <button
+            className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            disabled={true}
+            name="update-photo"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            Upload photo from Jira
+          </button>
+        </div>
+      </div>
+      <div
+        className="user-info__avatar"
+      >
+        <img
+          alt="avatar"
+          className=""
+          src="01_Auditor_icon.png"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          JiraAccountID:
+        </span>
+         
+        <p>
+          12866hg
+        </p>
+      </div>
+      <div
+        className="user-info-item user-info-checkbox"
+      >
+        <span
+          className="user-info-item__text"
+        />
+         
+        <div
+          className="user-info-checkbox__inner"
+        >
+          <span
+            aria-disabled={true}
+            className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-disabled css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+          >
+            <input
+              checked={false}
+              className="PrivateSwitchBase-input css-1m9pwf3"
+              data-indeterminate={false}
+              disabled={true}
+              id="user-info-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CheckBoxOutlineBlankIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+          <label
+            id="user-info-checkbox"
+          >
+            Preset working hours
+          </label>
+        </div>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Role:
+        </span>
+         
+        <div
+          className="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+        >
+          <div
+            className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-formControl user-info-select css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+            onClick={[Function]}
+          >
+            <select
+              aria-invalid={false}
+              className="MuiNativeSelect-select MuiNativeSelect-outlined Mui-disabled MuiOutlinedInput-input MuiInputBase-input Mui-disabled css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              defaultValue="AUDITOR"
+              disabled={true}
+              id="role-select"
+              multiple={false}
+              name="roleName"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <option
+                value="AUDITOR"
+              >
+                Auditor
+              </option>
+              <option
+                value="TEAM_LEADER"
+              >
+                Team leader
+              </option>
+              <option
+                value="MANAGER"
+              >
+                Manager
+              </option>
+              <option
+                value="ADMIN"
+              >
+                Admin
+              </option>
+            </select>
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined Mui-disabled css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden={true}
+              className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="css-hdw1oc"
+              >
+                <span
+                  className="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Level:
+        </span>
+         
+        <p>
+          Junior
+        </p>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Team:
+        </span>
+         
+        <p>
+          X-Rays
+        </p>
+      </div>
+      <div
+        className="user-info-item"
+      >
+        <span
+          className="user-info-item__text"
+        >
+          Works from:
+        </span>
+         
+        <p>
+          03/26/2022
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UserInfoModalContainer editable test UserInfoModalContainer for admin renders correctly 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body user-info"
+  >
+    <div
+      class="user-info__title"
+    >
+      <h5>
+        User info
+      </h5>
+    </div>
+    <div
+      class="user-info-wrapper"
+    >
+      <div
+        class="user-info__column"
+      >
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            User Name:
+          </span>
+           
+          <div
+            class="user-info__input-block"
+          >
+            <input
+              autocomplete="off"
+              class=""
+              name="fullName"
+              type="text"
+              value="full name6"
+            />
+          </div>
+        </div>
+        <div
+          class="user-info-item user-info-wrapper__status"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Status:
+          </span>
+           
+          <div
+            class="switch-wrapper-external"
+          >
+            <p
+              class=""
+            >
+              Active
+            </p>
+            <label
+              class=""
+              data-testid="switch-label-test"
+            >
+              <input
+                name="switch"
+                type="checkbox"
+              />
+              <span
+                class="switch"
+              />
+            </label>
+            <p
+              class="disabled"
+            >
+              Inactive
+            </p>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Email (login):
+          </span>
+           
+          <p>
+            6email@email
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Password:
+          </span>
+           
+          <div
+            aria-label=""
+            class=""
+            data-mui-internal-clone-element="true"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              name="reset-password"
+              tabindex="0"
+              type="button"
+            >
+              Reset Password
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            User Photo:
+          </span>
+           
+          <div
+            aria-label=""
+            class=""
+            data-mui-internal-clone-element="true"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              name="update-photo"
+              tabindex="0"
+              type="button"
+            >
+              Upload photo from Jira
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="user-info__avatar"
+        >
+          <img
+            alt="avatar"
+            class=""
+            src="01_Auditor_icon.png"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            JiraAccountID:
+          </span>
+           
+          <p>
+            12866hg
+          </p>
+        </div>
+        <div
+          class="user-info-item user-info-checkbox"
+        >
+          <span
+            class="user-info-item__text"
+          />
+           
+          <div
+            class="user-info-checkbox__inner"
+          >
+            <span
+              aria-disabled="true"
+              class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-disabled css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+              tabindex="-1"
+            >
+              <input
+                class="PrivateSwitchBase-input css-1m9pwf3"
+                data-indeterminate="false"
+                disabled=""
+                id="user-info-checkbox"
+                type="checkbox"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="CheckBoxOutlineBlankIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </span>
+            <label
+              id="user-info-checkbox"
+            >
+              Preset working hours
+            </label>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Role:
+          </span>
+           
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl user-info-select css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+            >
+              <select
+                aria-invalid="false"
+                class="MuiNativeSelect-select MuiNativeSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                id="role-select"
+                name="roleName"
+              >
+                <option
+                  selected=""
+                  value="AUDITOR"
+                >
+                  Auditor
+                </option>
+                <option
+                  value="TEAM_LEADER"
+                >
+                  Team leader
+                </option>
+                <option
+                  value="MANAGER"
+                >
+                  Manager
+                </option>
+                <option
+                  value="ADMIN"
+                >
+                  Admin
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Level:
+          </span>
+           
+          <p>
+            Junior
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Team:
+          </span>
+           
+          <p>
+            X-Rays
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Works from:
+          </span>
+           
+          <p>
+            03/26/2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-overlay__buttons"
+    >
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled  css-sxix9q-MuiButtonBase-root-MuiButton-root"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+        </span>
+        Save
+      </button>
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedError MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-180lf2n-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+        Cancel
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UserInfoModalContainer test UserInfoModalContainer for manager renders correctly 1`] = `
+<div
+  class="modal-overlay"
+  data-testid="modal-overlay"
+>
+  <div
+    class="modal-body user-info"
+  >
+    <button
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium user-info__exit-btn css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+      tabindex="0"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="CloseIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      class="user-info__title"
+    >
+      <h5>
+        User info
+      </h5>
+    </div>
+    <div
+      class="user-info-wrapper"
+    >
+      <div
+        class="user-info__column"
+      >
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            User Name:
+          </span>
+           
+          <p>
+            full name6
+          </p>
+        </div>
+        <div
+          class="user-info-item user-info-wrapper__status"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Status:
+          </span>
+           
+          <div
+            class="switch-wrapper-external"
+          >
+            <p
+              class=""
+            >
+              Active
+            </p>
+            <label
+              class="disabled-switch"
+              data-testid="switch-label-test"
+            >
+              <input
+                disabled=""
+                name="switch"
+                type="checkbox"
+              />
+              <span
+                class="switch"
+              />
+            </label>
+            <p
+              class="disabled"
+            >
+              Inactive
+            </p>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Email (login):
+          </span>
+           
+          <p>
+            6email@email
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Password:
+          </span>
+           
+          <div
+            aria-label="A new password was sent to user. You cannot reset password more that once in the current window."
+            class=""
+            data-mui-internal-clone-element="true"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              disabled=""
+              name="reset-password"
+              tabindex="-1"
+              type="button"
+            >
+              Reset Password
+            </button>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            User Photo:
+          </span>
+           
+          <div
+            aria-label=""
+            class=""
+            data-mui-internal-clone-element="true"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root Mui-disabled user-info-btn css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              disabled=""
+              name="update-photo"
+              tabindex="-1"
+              type="button"
+            >
+              Upload photo from Jira
+            </button>
+          </div>
+        </div>
+        <div
+          class="user-info__avatar"
+        >
+          <img
+            alt="avatar"
+            class=""
+            src="01_Auditor_icon.png"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            JiraAccountID:
+          </span>
+           
+          <p>
+            12866hg
+          </p>
+        </div>
+        <div
+          class="user-info-item user-info-checkbox"
+        >
+          <span
+            class="user-info-item__text"
+          />
+           
+          <div
+            class="user-info-checkbox__inner"
+          >
+            <span
+              aria-disabled="true"
+              class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-disabled css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+              tabindex="-1"
+            >
+              <input
+                class="PrivateSwitchBase-input css-1m9pwf3"
+                data-indeterminate="false"
+                disabled=""
+                id="user-info-checkbox"
+                type="checkbox"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="CheckBoxOutlineBlankIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </span>
+            <label
+              id="user-info-checkbox"
+            >
+              Preset working hours
+            </label>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Role:
+          </span>
+           
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+          >
+            <div
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-formControl user-info-select css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+            >
+              <select
+                aria-invalid="false"
+                class="MuiNativeSelect-select MuiNativeSelect-outlined Mui-disabled MuiOutlinedInput-input MuiInputBase-input Mui-disabled css-ffg8md-MuiNativeSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                disabled=""
+                id="role-select"
+                name="roleName"
+              >
+                <option
+                  selected=""
+                  value="AUDITOR"
+                >
+                  Auditor
+                </option>
+                <option
+                  value="TEAM_LEADER"
+                >
+                  Team leader
+                </option>
+                <option
+                  value="MANAGER"
+                >
+                  Manager
+                </option>
+                <option
+                  value="ADMIN"
+                >
+                  Admin
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiNativeSelect-icon MuiNativeSelect-iconOutlined Mui-disabled css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Level:
+          </span>
+           
+          <p>
+            Junior
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Team:
+          </span>
+           
+          <p>
+            X-Rays
+          </p>
+        </div>
+        <div
+          class="user-info-item"
+        >
+          <span
+            class="user-info-item__text"
+          >
+            Works from:
+          </span>
+           
+          <p>
+            03/26/2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

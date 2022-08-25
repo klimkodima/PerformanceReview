@@ -1,0 +1,51 @@
+.coeff-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & .coeff-table-container {
+    max-height: calc(100vh - 205px);
+  }
+
+  th {
+    text-align: center;
+    border-left: 1px solid #e3e3e3;
+    color: #787878;
+  }
+  th:nth-of-type(2) {
+    border-left: none;
+  }
+  tr {
+    border-bottom: 1px solid #e3e3e3;
+    td {
+      padding: 16px;
+      min-width: 110px;
+      text-align: center;
+      border-left: 1px solid #e3e3e3;
+      color: #787878;
+    }
+    .td-group,
+    .th-types {
+      font-weight: 800;
+    }
+    .th-main {
+      font-style: italic;
+    }
+    .td-icon {
+      min-width: 70px;
+      border: none;
+    }
+    .td-btn-block {
+      position: relative;
+      button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+      }
+      &:hover button {
+        visibility: visible;
+      }
+    }
+  }
+}

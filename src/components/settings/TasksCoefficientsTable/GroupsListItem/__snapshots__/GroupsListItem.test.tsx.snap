@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupsListItem renders correctly 1`] = `
+<label
+  className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd group-list-item css-j204z7-MuiFormControlLabel-root"
+>
+  <span
+    className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked custom-checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+    data-testid="custom-checkbox"
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <input
+      checked={true}
+      className="PrivateSwitchBase-input css-1m9pwf3"
+      data-indeterminate={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+      data-testid="CheckBoxOutlineBlankIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+      />
+    </svg>
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium custom-checkbox__check-icon css-i4bv87-MuiSvgIcon-root"
+      data-testid="CheckIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+      />
+    </svg>
+  </span>
+  <span
+    className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+  >
+    <span
+      className="group-list-item-label"
+      data-testid="group-list-item-label"
+    >
+      some
+    </span>
+  </span>
+</label>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsSidebar renders correctly 1`] = `
+<div
+  className="settings-sidebar sidebar-wrapper"
+>
+  <ul>
+    <li
+      className="sidebar-list-item active"
+      data-testid="sidebar-list-item"
+      onClick={[Function]}
+    >
+      Tasks' Coefficients
+    </li>
+    <li
+      className="sidebar-list-item "
+      data-testid="sidebar-list-item"
+      onClick={[Function]}
+    >
+      Hours' Correspondence
+    </li>
+    <li
+      className="sidebar-list-item "
+      data-testid="sidebar-list-item"
+      onClick={[Function]}
+    >
+      Preset Working Hours
+    </li>
+    <li
+      className="sidebar-list-item "
+      data-testid="sidebar-list-item"
+      onClick={[Function]}
+    >
+      Seniority Bonuses
+    </li>
+    <li
+      className="sidebar-list-item "
+      data-testid="sidebar-list-item"
+      onClick={[Function]}
+    >
+      Users
+    </li>
+  </ul>
+</div>
+`;
