@@ -10,9 +10,9 @@ import { formatDate } from './helper';
 
 export interface TimingValues {
   name: string;
-  timeSpend: number,
-  comment: string,
-  date: string
+  timeSpend: number;
+  comment: string;
+  date: string;
 }
 
 export const initialValues = {
@@ -30,28 +30,19 @@ export const validationSchema = Yup.object().shape({
 });
 
 const TimingContainer = (): ReactElement => {
-  
-const handleSubmit = (values) => {
-  postActivity(values)
-};
-const handleCancel = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-  event.preventDefault();
-  //  dispatch(addFeedback(values));
-}
+  const handleSubmit = (values) => {
+    postActivity(values);
+  };
 
-const formik: FormikProps<TimingValues> = useFormik<TimingValues>({
-  initialValues,
-  validationSchema,
-  onSubmit: (values) => {
-    handleSubmit(values);
-  }
-});
+  const formik: FormikProps<TimingValues> = useFormik<TimingValues>({
+    initialValues,
+    validationSchema,
+    onSubmit: (values) => {
+      handleSubmit(values);
+    }
+  });
 
-  return (
-    <Timing
-      formik={formik}
-    />
-  );
+  return <Timing formik={formik} />;
 };
 
 export default TimingContainer;

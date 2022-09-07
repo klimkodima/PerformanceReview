@@ -1,4 +1,4 @@
-import { ChangeEvent, FormEvent, memo, ReactElement } from 'react';
+import { memo, ReactElement } from 'react';
 import { t } from 'i18next';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
@@ -23,18 +23,11 @@ const names = [
   {
     value: 'Others',
     label: t('timing.others_label')
-  },
+  }
 ];
 
 const Timing = memo(({ formik }: any): ReactElement => {
-
-  const {
-    values,
-    errors,
-    handleChange,
-    handleSubmit,
-    handleReset
-  } = formik;
+  const { values, errors, handleChange, handleSubmit } = formik;
 
   const timeSpendError = Boolean(formik.errors.timeSpend);
 
@@ -46,7 +39,7 @@ const Timing = memo(({ formik }: any): ReactElement => {
           <TextField
             className='timing-form__input timing-form-input'
             select
-            name="name"
+            name='name'
             label={t('timing.timing_select_label_text')}
             value={values.name}
             onChange={handleChange}
@@ -60,28 +53,31 @@ const Timing = memo(({ formik }: any): ReactElement => {
           </TextField>
           <TextField
             className='timing-form__input timing-form-input'
-            type="number"
+            type='number'
             error={timeSpendError}
-            name="timeSpend"
+            name='timeSpend'
             label={t('timing.timing_time_label_text')}
             value={values.timeSpend}
             onChange={handleChange}
-            helperText={timeSpendError ? errors.timeSpend :
-              t('timing.timing_time_helper_text')}
+            helperText={
+              timeSpendError
+                ? errors.timeSpend
+                : t('timing.timing_time_helper_text')
+            }
           />
           <TextField
             className='timing-form__input timing-form-input'
             label={t('timing.timing_comment_label_text')}
             multiline
-            name="comment"
+            name='comment'
             maxRows={4}
             value={values.comment}
             onChange={handleChange}
             helperText={t('timing.timing_comment_helper_text')}
           />
           <TextField
-            type="date"
-            name="date"
+            type='date'
+            name='date'
             label={t('timing.timing_date_label_text')}
             value={values.date}
             InputLabelProps={{ shrink: true }}
@@ -96,20 +92,11 @@ const Timing = memo(({ formik }: any): ReactElement => {
           >
             {t('timing.timing_submit_button_text')}
           </Button>
-          <Button
-            className='timing-form__button'
-            type='reset'
-            variant='contained'
-            disabled={timeSpendError}
-          >
-            {t('timing.timing_cancel_button_text')}
-          </Button>
         </Stack>
       </form>
     </div>
-  )
-}
-);
+  );
+});
 
 export default Timing;
 

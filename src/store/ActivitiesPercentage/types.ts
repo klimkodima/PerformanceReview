@@ -13,7 +13,3 @@ export type TeamActivitiesPercentageType = {
   teamName: string;
   labels: Omit<ActivityLabelType, 'totalTimeSpend'>[];
 };
-
-export type TeamActivitiesResponseType = {
-  activitiesTeam: TeamActivitiesPercentageType[];
-};

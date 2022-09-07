@@ -12,7 +12,8 @@ type HeaderContainerPropsType = {
 };
 
 const HeaderContainer: FC<HeaderContainerPropsType> = ({
-  onSettingsClick, onTimingClick
+  onSettingsClick,
+  onTimingClick
 }): ReactElement => {
   const dispatch = useDispatch();
   const settingsPermission = useSelector(selectSettingsPermission);

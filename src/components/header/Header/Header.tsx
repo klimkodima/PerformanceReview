@@ -51,12 +51,12 @@ const Header = memo(
           {isAuth && (
             <div>
               <IconButton
-                  className='settings-icon'
-                  data-testid='timing-icon'
-                  onClick={onTimingClick}
-                >
-                  <img src={timingIcon} alt='timing icon' />
-                </IconButton>
+                className='settings-icon'
+                data-testid='timing-icon'
+                onClick={onTimingClick}
+              >
+                <img src={timingIcon} alt='timing icon' />
+              </IconButton>
               {settingsPermission !== SETTINGS_PERMISSION.NONE && (
                 <IconButton
                   className='settings-icon'

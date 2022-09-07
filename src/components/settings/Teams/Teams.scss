@@ -1,0 +1,22 @@
+.teams {
+  .MuiPaper-root {
+    overflow-y: hidden;
+  }
+  input {
+    text-align: center;
+  }
+  .teams__field-wrapper {
+    position: relative;
+    .info-icon {
+      position: absolute;
+      left: -25px;
+      top: 0;
+    }
+    .error-icon {
+      svg {
+        top: 20px;
+        right: -25px;
+      }
+    }
+  }
+}

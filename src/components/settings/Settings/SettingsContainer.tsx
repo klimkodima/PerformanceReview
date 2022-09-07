@@ -15,6 +15,7 @@ import {
   PresetWorkingHoursEdit
 } from '../PresetWorkingHours';
 import { UsersContainer } from '../Users';
+import { Teams, TeamsEdit } from '../Teams';
 
 import { SettingsTabsType } from '../types';
 import { useSelector } from 'react-redux';
@@ -48,6 +49,12 @@ export const initListOfTabs: SettingsTabsType[] = [
     name: t('settings.users_title'),
     component: <UsersContainer />,
     editableComponent: <UsersContainer />,
+    isActive: false
+  },
+  {
+    name: t('settings.teams_title'),
+    component: <Teams />,
+    editableComponent: <TeamsEdit />,
     isActive: false
   }
 ];

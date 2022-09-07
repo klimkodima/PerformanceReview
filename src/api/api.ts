@@ -99,10 +99,17 @@ export const getIsUserTableChanged: ResponseFCType = (request) =>
 export const getTeamsList: ResponseFCType = (request) =>
   api.get('team', request);
 
+export const createTeam: ResponseFCType = (data) => api.post('team', data);
+
+export const updateTeam: ResponseUpdateFCType = (id: number, data) =>
+  api.patch(`team/${id}`, data);
+
+export const deleteTeam: ResponseDeleteFCType = (id: string) =>
+  api.delete(`team/${id}`, {});
+
 export const postLogin: ResponseFCType = (data) => api.post('auth/login', data);
 
 export const getPerformanceStatistic: ResponseFCType = (request) =>
   api.get('widget/PerformanceStatistics', request);
-  export const postActivity
-  : ResponseFCType = (data) => api.post('activity', data);
-  
+export const postActivity: ResponseFCType = (data) =>
+  api.post('activity', data);

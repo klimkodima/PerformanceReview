@@ -13,6 +13,7 @@ import { seniorityBonusesReducer } from './SeniorityBonuses';
 import { performanceStatisticReducer } from './PerformanceStatistic';
 import { criteriaReducer } from './Criteria';
 import { usersReducer } from './Users';
+import { teamsReducer } from './Teams';
 
 const rootReducer = combineReducers({
   app: appReducer,
@@ -27,7 +28,8 @@ const rootReducer = combineReducers({
   performanceStatistic: performanceStatisticReducer,
   presetWorkingHoursTable: presetWorkingHoursReducer,
   criteria: criteriaReducer,
-  users: usersReducer
+  users: usersReducer,
+  teams: teamsReducer
 });
 
 export default rootReducer;

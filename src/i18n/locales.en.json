@@ -35,6 +35,7 @@
     "hours_title": "Hours' Correspondence",
     "preset_working_hours_title": "Preset Working Hours",
     "users_title": "Users",
+    "teams_title": "Teams",
     "seniority_bonuses_title": "Seniority Bonuses",
     "text_placeholder": "here will be a component",
     "website_group": "Website Group",
@@ -210,15 +211,10 @@
     "gap_min_max_value_error": "Second value shouldn`t be higher or equal to the first value."
   },
 
-  "seniority_bonuses": {
-    "header_cell_experience": "Experience (months)",
-    "header_cell_bonus": "Bonus",
-    "experience": "experience",
-    "bonus": "bonus",
-    "wrong_pattern": "The value should be integer",
-    "empty_field": "Field cannot be empty",
-    "interval_error": "The value cannot be lower or equal to the previous value",
-    "info_tooltip_text": "The interval will be closed with the nearest starting value of another interval. If its starting value is the highest of all the intervals (or it is the only interval), this interval will be considered endless."
+  "teams": {
+    "header_cell_teamName": "Team name",
+    "header_cell_teamLeaderName": "Team leader name",
+    "empty_field": "Field cannot be empty"
   },
 
   "preset_working_hours_table": {
@@ -361,6 +357,5 @@
     "timing_comment_helper_text": "Please enter comment",
     "timing_date_label_text": "Date",
     "timing_date_helper_text": "Please choose date"
-
   }
 }

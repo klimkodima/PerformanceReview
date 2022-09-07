@@ -88,7 +88,8 @@ const UserInfoModal = memo(
       : '';
 
     const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-    const [isUploadAvatarInputOpen, setIsUploadAvatarInputOpen] = useState<boolean>(false);
+    const [isUploadAvatarInputOpen, setIsUploadAvatarInputOpen] =
+      useState<boolean>(false);
     const onCloseNotificationClick = () => {
       setIsModalOpen(false);
     };
@@ -118,8 +119,8 @@ const UserInfoModal = memo(
     };
 
     const onOpenUpdateFotoInput = () => {
-      setIsUploadAvatarInputOpen(true)
-    }
+      setIsUploadAvatarInputOpen(true);
+    };
 
     return (
       <>
@@ -206,8 +207,8 @@ const UserInfoModal = memo(
                           className={!fullName ? 'error' : ''}
                           type='file'
                           //value={fullName}
-                         // autoComplete='off'
-                         // name='fullName'
+                          // autoComplete='off'
+                          // name='fullName'
                           onChange={onChangeInput}
                         />
                       </div>

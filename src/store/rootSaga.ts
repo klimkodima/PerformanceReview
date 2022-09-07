@@ -15,6 +15,7 @@ import { performanceStatisticSaga } from './PerformanceStatistic';
 import { criteriaSaga } from './Criteria';
 import { FilterSaga } from './Filter';
 import { usersSaga } from './Users';
+import { teamsSaga } from './Teams';
 
 export default function* rootSaga(): Generator {
   yield all([
@@ -30,6 +31,7 @@ export default function* rootSaga(): Generator {
     seniorityBonusesSaga(),
     criteriaSaga(),
     FilterSaga(),
-    usersSaga()
+    usersSaga(),
+    teamsSaga()
   ]);
 }

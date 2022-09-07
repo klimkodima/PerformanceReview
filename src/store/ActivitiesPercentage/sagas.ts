@@ -10,7 +10,7 @@ import {
 import { selectCheckedAuditorsData } from '../Filter';
 import { selectPickedDate, PickedDateType } from '../DateFilter';
 
-import { AuditActivitiesType, TeamActivitiesResponseType } from './types';
+import { AuditActivitiesType, TeamActivitiesPercentageType } from './types';
 import { CheckedAuditorsDataType } from '../Filter/types';
 
 function* fetchActivitiesPercentage() {
@@ -39,7 +39,7 @@ function* fetchTeamActivitiesPercentage() {
   try {
     const pickedDate: PickedDateType = yield select(selectPickedDate);
 
-    const { activitiesTeam }: TeamActivitiesResponseType = yield call(
+    const activitiesTeam: TeamActivitiesPercentageType[] = yield call(
       getTeamActivitiesPercentage,
       {
         from: pickedDate.startDate,

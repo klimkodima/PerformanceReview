@@ -15,5 +15,9 @@ export const getAuditors: SearchFunction = (searchedArray, dataObject) => {
   if (searchedArray.length) {
     return searchedArray;
   }
-  return dataObject.map((item: AuditorType) => item.name);
+  return dataObject
+    .map((item: AuditorType) => {
+      if (item.roleName === 'AUDITOR') return item.name;
+    })
+    .filter(Boolean);
 };

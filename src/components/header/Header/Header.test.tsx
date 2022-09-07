@@ -100,7 +100,10 @@ describe('HeaderContainer', () => {
       .create(
         <Provider store={store}>
           <I18nextProvider i18n={i18n}>
-            <HeaderContainer onSettingsClick={() => true} onTimingClick= {() => true} />
+            <HeaderContainer
+              onSettingsClick={() => true}
+              onTimingClick={() => true}
+            />
           </I18nextProvider>
         </Provider>
       )

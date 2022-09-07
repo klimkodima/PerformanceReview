@@ -55,7 +55,7 @@ const App = (): ReactElement => {
   const isAuth = useSelector(selectAuthIsAuth);
 
   const dashboardStyle = `dashboard ${showSettings ? 'hidden' : ''}`;
-  const settingsStyle = `dashboard ${showSettings  ? '' : 'hidden'}`;
+  const settingsStyle = `dashboard ${showSettings ? '' : 'hidden'}`;
 
   useEffect(() => {
     if (!isAuth) {
@@ -72,8 +72,8 @@ const App = (): ReactElement => {
     dispatch(fetchAvailableWidgets());
   }, [pickedDate, checkedAuditors, roleName]);
 
-  const isShowAuditsWidgets = 
-  Object.keys(checkedAuditors).length === 1 || roleName === ROLE_NAME.AUDITOR;
+  const isShowAuditsWidgets =
+    Object.keys(checkedAuditors).length === 1 || roleName === ROLE_NAME.AUDITOR;
   const [isWidgetsOpen, setIsWidgetsOpen] = useState<boolean>(true);
 
   const handleWidgetsArrowClick = useCallback(() => {
@@ -87,10 +87,10 @@ const App = (): ReactElement => {
 
   return (
     <div className='app'>
-      <Header onSettingsClick={setShowSettings} onTimingClick={setShowTiming}/>
+      <Header onSettingsClick={setShowSettings} onTimingClick={setShowTiming} />
       {showTiming && (
         <div className={dashboardStyle}>
-          <Timing/>
+          <Timing />
         </div>
       )}
       {settingsPermission !== SETTINGS_PERMISSION.NONE && (

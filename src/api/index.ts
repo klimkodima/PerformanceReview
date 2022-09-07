@@ -25,6 +25,9 @@ export {
   activatePendingUser,
   disabledUser,
   getTeamsList,
+  createTeam,
+  updateTeam,
+  deleteTeam,
   getCurrentUser,
   updateAvatar,
   resetPassword,
@@ -32,6 +35,11 @@ export {
   getAvailableWidgets,
   getIsUserTableChanged,
   postUser,
-  postActivity,
+  postActivity
 } from './api';
-export type { ResponseFCType, ErrorResponseType } from './types';
+export type {
+  ResponseFCType,
+  ErrorResponseType,
+  ResponseUpdateFCType,
+  ResponseDeleteFCType
+} from './types';
